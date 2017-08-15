@@ -1,0 +1,83 @@
+#tblDatos {
+	BACKGROUND-COLOR: buttonface;
+	BORDER-BOTTOM: #000000 1px solid;
+	BORDER-LEFT: #000000 1px solid;
+	BORDER-RIGHT: #000000 1px solid;
+	BORDER-TOP: #000000 1px solid;
+	
+}
+#tblDatos THEAD TH {
+	BACKGROUND-COLOR: buttonface;
+	BORDER-BOTTOM: buttonshadow 1px solid;
+	BORDER-LEFT: buttonhighlight 1px solid;
+	BORDER-RIGHT: threeddarkshadow 1px solid;
+	BORDER-TOP: buttonhighlight 1px solid;
+	COLOR: buttontext;
+	CURSOR: default;
+	FONT-FAMILY: Tahoma, Verdana, 'MS Sans Serif';
+	FONT-SIZE: 8pt; FONT-WEIGHT: normal;
+	HEIGHT: 18px;
+	PADDING-LEFT: 3px;
+	PADDING-RIGHT: 3px;
+	TEXT-ALIGN: center;
+}
+#tblDatos TD {
+<!--	BACKGROUND-COLOR: window;
+-->     background-color : #A7EAFE;
+	BORDER-BOTTOM: buttonface 1px solid;
+	BORDER-RIGHT: buttonface 1px solid;
+	COLOR: windowtext;
+	FONT-FAMILY: Tahoma, 'MS Sans Serif';
+	FONT-SIZE: 9pt;
+	FONT-WEIGHT: normal;
+	HEIGHT: 18px;
+	PADDING-LEFT: 2px;
+	PADDING-RIGHT: 2px
+}
+
+#tblDatos SPAN {
+	CURSOR: default
+}
+#tblDatos TD.Detalle {
+<!--	BACKGROUND-COLOR: window;
+-->     background-color : #A7EAFE;
+	BORDER-BOTTOM: buttonface 0px none;
+	BORDER-RIGHT: buttonface 1px solid;
+	COLOR: windowtext;
+	FONT-FAMILY: Tahoma, 'MS Sans Serif';
+	FONT-SIZE: 9pt;
+	FONT-WEIGHT: normal;
+	HEIGHT: 18px;
+	PADDING-LEFT: 2px;
+	PADDING-RIGHT: 2px
+}
+#tblDatos TD.Puntero {
+	BACKGROUND-COLOR: buttonface;
+	BORDER-BOTTOM: threeddarkshadow 1px solid;
+	BORDER-LEFT: buttonface 1px solid;
+	BORDER-RIGHT: threeddarkshadow 1px solid;
+	BORDER-TOP: buttonhighlight 1px solid;
+	COLOR: buttontext;
+	CURSOR: default;
+	FONT-FAMILY: "Arial";
+	FONT-STYLE: normal;
+	FONT-WEIGHT: normal;
+	TEXT-ALIGN: center;
+	VERTICAL-ALIGN: middle;
+	WIDTH: 15px
+}
+
+TABLE#ToolBar {
+	BACKGROUND-COLOR: buttonface;
+	BORDER-BOTTOM: buttonshadow 1px solid;
+	BORDER-LEFT: buttonhighlight 1px solid;
+	BORDER-RIGHT: buttonshadow 1px solid;
+	BORDER-TOP: buttonhighlight 1px solid;
+	COLOR: buttontext;
+	PADDING-BOTTOM: 1px;
+	PADDING-LEFT: 1px;
+	PADDING-TOP: 1px;
+	layer-background-color: buttonface;
+	
+	
+}

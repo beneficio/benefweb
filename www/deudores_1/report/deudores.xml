@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE document [
+<!ENTITY nbsp '&#160;'>
+<!ENTITY aacute '&#225;'>
+<!ENTITY eacute '&#233;'>
+<!ENTITY iacute '&#237;'>
+<!ENTITY oacute '&#243;'>
+<!ENTITY uacute '&#250;'>
+<!ENTITY ntilde '&#241;'>
+<!ENTITY Ntilde '&#209;'>
+<!ENTITY Aacute '&#193;'>
+<!ENTITY Eacute '&#201;'>
+<!ENTITY Iacute '&#205;'>
+<!ENTITY Oacute '&#211;'>
+<!ENTITY Uacute '&#218;'>
+]>
+<document deny-modify='true' margin-left='0.5cm' margin-right='0.5cm' margin-top='0.2cm' margin-bottom='0.5cm' border-width-all='0.05' border-color-all='#707070'>
+    <style name='.ItemNameNormal' font-name='helvetica' font-size='9' vertical-align='top'/>
+    <style name='.ItemNameBold' font-name='helvetica-bold' font-size='9' vertical-align='top'/>
+    <style name='.ItemValueNormal' font-name='helvetica' font-size='10' vertical-align='top'/>
+    <style name='.ItemTextoVar' font-name='helvetica' font-size='10' vertical-align='top' align='left'/>    
+    <style name='.ItemValueBold' font-name='helvetica-bold' font-size='10' vertical-align='top'/>
+    <style name='.ItemTitulo' font-name='helvetica-bold' font-size='11' vertical-align='middle'  fill-color='#C0C0C0'/>    
+    <style name='.ItemSubTitulo' font-name='helvetica-bold' font-size='10' vertical-align='top' />    
+    <style name='.ItemCob' font-name='helvetica' font-size='8' align='center' vertical-align='top'/>    
+    <style name='.ItemCobL' font-name='helvetica' font-size='8' align='left' vertical-align='top'/>    
+    <style name='.ItemCobR' font-name='helvetica' font-size='8' align='right' vertical-align='top'/>            
+    <style name='.ItemCobBold' font-name='helvetica-bold' font-size='8' align='right' vertical-align='top'/>    
+    <style name='.ItemValueChico' font-name='helvetica-bold' font-size='7' align='center' vertical-align='top'/>        
+    <style name='.ItemTituloTabla' font-name='helvetica-bold' font-size='8' vertical-align='middle'  fill-color='#C0C0C0'/>        
+    <images>
+      <merge source-element-name='imagenes'/>
+    </images>
+    <page-header indent-left='0' indent-right='0'>
+        <row>
+            <cell>
+                <table  border-width-bottom='0.1' widths='25%,50%,25%'  padding-all='2'>
+                    <row>
+                        <cell align='right'><show-image image-name='logo' scale-width='154' scale-height='34' /></cell>
+                        <cell  align='center' vertical-align='middle'>
+                            <table  border-width-bottom='0.0'  widths='100%' padding-all='2'>
+                                <row>
+                                    <cell  align='center' vertical-align='middle' class='ItemSubTitulo'>DEUDORES POR PREMIO</cell>
+                                </row>
+                                <row>
+                                    <cell align='center' class='ItemNameNormal'><merge source-element-name='subtitulo'/></cell>
+                                </row>
+                                <row>
+                                    <cell align='center' class='ItemNameNormal'>Fecha de Análisis:&nbsp;<merge source-element-name='FECHA'/></cell>
+                                </row>
+                            </table>
+                        </cell>
+                        <cell align='right'>&nbsp;</cell>
+                    </row>
+                </table>
+            </cell>
+        </row>
+    </page-header> 
+    <page-footer indent-left='0' indent-right='0'  width='100%'>
+        <row>
+            <cell align='left' font-name='helvetica' font-size='7' text-color='blue' border-width-top='0.01' >
+                <link url='http://www.beneficiosa.com.ar'>www.beneficiosa.com.ar</link>|
+            </cell> 
+            <cell align='center' font-name='helvetica' font-size='7' border-width-top='0.01' >
+                BENEFICIO S.A.
+            </cell>  
+            <cell border-width-top='0.01' align='right' font-size='7' font-name='helvetica'>
+                Pagina <page-number/> de <forward-reference name='total-pages'/>
+            </cell>
+        </row>
+    </page-footer>
+    <table border-width-all='0'>
+        <row><cell min-height='3'>&nbsp;</cell></row>
+    </table>
+    <table block-align='center' widths='1cm,1.3cm,1.3cm,4cm,3.3cm,1cm,1.7cm,3.5cm,2cm' border-width-all='0.05' border-color-all='#707070' padding-all='2'>
+        <row>
+            <cell class='ItemTituloTabla' align='center' >Rama</cell>
+            <cell class='ItemTituloTabla' align='center'>Poliza</cell>
+            <cell class='ItemTituloTabla' align='center'>Endoso</cell>
+            <cell class='ItemTituloTabla' align='center'>Asegurado</cell>
+            <cell class='ItemTituloTabla' align='center'>Vigencia</cell>
+            <cell class='ItemTituloTabla' align='center'>Cuota</cell>
+            <cell class='ItemTituloTabla' align='center'>Fecha</cell>
+            <cell class='ItemTituloTabla' align='center'>Movimiento</cell>
+            <cell class='ItemTituloTabla' align='center'>Importe</cell>                                                                                                
+        </row>  
+        <merge source-element-name='TABLA_CUOTAS'/>
+    </table>
+    <table border-width-all='0'>
+        <row>
+            <cell min-height='30' class='ItemSubTitulo' vertical-align='bottom'>IMPORTANTE: La información de pólizas de éste sitio se encuentra actualizada al&nbsp;
+            <merge source-element-name='FECHA_MOVIMIENTOS'/>. La información referida a pagos al&nbsp;
+            <merge source-element-name='FECHA_PAGOS'/>
+            </cell>
+        </row>
+    </table>
+</document>

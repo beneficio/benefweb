@@ -1,0 +1,197 @@
+.boton {padding:0px 3px 0px 3px;border:1px solid #999999;background:#FFF;background-image:url(/benef/images/FondoInput.gif);background-repeat:repeat-x;font:bold 11px Tahoma, Arial, Helvetica, sans-serif;color:#12477B;cursor:pointer;}
+
+.fondo {
+	background-color: #C03A2C;
+	text-decoration: none;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: 16px;
+	color: #FFFFFF;
+	text-align: center;
+	font-weight: bold;
+	padding: 4px;
+
+
+
+}
+.fondo2 {
+	background-color: #76A3B8;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: 16px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-repeat: no-repeat;
+	background-position: left 8px;
+	cursor: hand;
+	padding: 4px;
+
+
+
+}
+.fondoposicion {
+	background-color: #76A3B8;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: 16px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-repeat: no-repeat;
+	background-position: left 8px;
+	cursor: hand;
+	text-align: center;
+	padding: 4px;
+
+
+}
+.anclaje {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	color: #005F8C;
+	text-decoration: none;
+	padding: 5px 5px 5px 14px;
+}
+.txt1 {
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	color: #005279;
+	text-decoration: none;
+	padding: 20px 15px 20px 20px;
+}
+.fondo3 {
+
+	background-color: #006699;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: 16px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-repeat: no-repeat;
+	background-position: left 8px;
+	cursor: hand;
+	padding: 4px;
+}
+.txt2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: normal;
+	color: #005279;
+	text-decoration: none;
+	padding: 20px;
+	line-height: 17px;
+
+}
+.direccion {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: normal;
+	color: #005279;
+	text-decoration: none;
+	padding: 10px 20px 20px;
+	line-height: 18px;
+
+}
+.fondocuadraditos {
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-image: url(/benef/images/fondo2.gif);
+
+}
+.imagenes {
+	padding-top: 30px;
+}
+.titulos {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 40px;
+	font-weight: normal;
+	text-decoration: none;
+	color: #B8CFDA;
+	padding: 10px;
+	text-align: left;
+
+
+}
+.link1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #76A3B8;
+	font-weight: bold;
+	text-decoration: none;
+	background-position: right center;
+	padding-top: 3px;
+	padding-right: 16px;
+	padding-bottom: 5px;
+	background-image: url(/benef/images/cuadradito.gif);
+	background-repeat: no-repeat;
+
+
+
+
+
+}
+.link1:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #C03A2C;
+	font-weight: bold;
+	text-decoration: none;
+	background-position: right center;
+	padding-top: 3px;
+	padding-right: 16px;
+	padding-bottom: 5px;
+	background-image: url(/benef/images/cuadradito_h.gif);
+	background-repeat: no-repeat;
+
+}
+.datos {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: normal;
+	color: #005279;
+	text-decoration: none;
+	line-height: 18px;
+}
+input {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #005279;
+	text-decoration: none;
+}
+select {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #005279;
+	text-decoration: none;
+}
+textarea {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #005279;
+	text-decoration: none;
+	padding: 10px;
+
+}
+.candado {
+	background-image: url(/benef/images/candado_fondo.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #004566;
+	text-decoration: none;
+	padding: 20px;
+
+}

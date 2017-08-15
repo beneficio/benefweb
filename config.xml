@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<properties> 
+ <category name="general">
+    <property name="aplicacion" value="/benef/" />
+    <property name="pathManuales" value="/files/manuales/" />
+    <property name="pathNovedades" value="/files/novedades/" />
+    <property name="mailhost" value="192.168.2.169" />
+    <property name="mailuser" value="webmaster@beneficiosa.com.ar" />
+    <property name="mailpass" value="123456" />
+    <property name="mailauth" value="false" />
+    <property name="mailsource" value="webmaster@beneficiosa.com.ar" />
+  </category>
+  <category name="jdbc">
+    <property name="driver" value="org.postgresql.Driver" />
+    <property name="base" value="BENEF" />
+    <property name="urlbase" value="jdbc:postgresql://localhost:5432/"/>
+    <property name="user" value="postgres" />
+    <property name="pass" value="pino" />
+  </category>
+</properties>

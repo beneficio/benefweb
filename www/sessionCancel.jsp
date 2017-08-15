@@ -1,0 +1,53 @@
+<%@page contentType="text/html"%>
+<html>
+    <%
+        
+        System.out.println (" ---> cesion cancelada <---");
+%>    
+<head>
+    <title>Sesión cancelada</title>
+    <LINK rel="stylesheet" type="text/css" href="/benef/css/main.css">
+    <SCRIPT>
+            var sUrlhome = "/benef/portal/extranet.jsp";
+            function home(){
+                   window.location.replace(sUrlhome);     
+            }
+            function logOut(){
+                   window.location.replace("/benef/servlet/setAccess?opcion=LOGOUTNEW");
+            }
+    </SCRIPT>
+</head>
+
+<body leftmargin="0" topmargin="0" >
+<table width="100%" border="0" cellspacing="0" cellpadding="0" height="250">
+    <tr>
+        <td width='100%' height='50' valign="middle" align="center" colspan='2'><font color='#ff0000' size='3'><B>SE PRODUJO UN ERROR</B></font> </td>
+    </tr>
+    <TR>
+        <td width='10%'>&nbsp;</td>
+        <TD width="80%" valign="top" align="center" height='250'>
+            <table width="100%"  cellspacing="2" cellpadding="5" border='0'  style="border-top:2pt solid #FF0000 ; border-left:1pt solid #FF0000 ;">
+                <tr>
+                    <td width='70' valign="top" align="center" ><img src='/benef/images/icon_error_lrg.gif' alt='Error'></td>
+                    <td  valign='top' align='left' width='500'>
+                        <font color='#747474 ' size='2'><p align='left'>
+                        La sesi&oacute;n ha caducado. Por favor, vuelva a ingresar. Gracias<br>
+                        </font>     
+                        <br>
+                        <br>
+                    </TD>
+                </tr>
+                <tr>
+                    <td height='50' valign="middle" align="center" colspan='2'>
+                    <input type="button" onClick="logOut();" name="cmdSalir" value="Volver" width="80px" height="20px" class="boton">
+                    </td>
+                </tr>
+            </table>
+        </td>
+        <td width='10%'>&nbsp;</td>
+    </tr>
+</table>
+</body>
+</html>
+
+

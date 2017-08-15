@@ -1,0 +1,47 @@
+/* table look and feel */
+
+.rTable {
+margin:0 auto;
+width: 800px;
+}
+
+.rTableHeading, .rTableBody, .rTableFoot, .rTableRow {
+clear: both; 
+}
+ 
+.rTableHead, .rTableFoot {
+background-color: #DDD;   	
+font-weight: bold; 
+}
+ 
+.rTableCell, .rTableHead {
+border: 1px solid #999999;
+float: left;
+overflow: hidden;   	
+padding: 3px 0.5%;
+width: 13%;
+font-size: 15px;
+height: 25px;
+line-height: 25px;
+}
+ 
+.rTable:after {
+visibility: hidden;
+display: block;
+font-size: 0;
+content: " ";
+clear: both;
+height: 0;
+}
+
+.vigencia {
+	width: 23%;
+}
+
+.genericwidth {
+	width: 9%;
+}
+
+.saldo {
+	width: 13%;
+}

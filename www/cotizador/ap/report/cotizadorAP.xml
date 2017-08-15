@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE document [
+<!ENTITY nbsp '&#160;'>
+<!ENTITY aacute '&#225;'>
+<!ENTITY eacute '&#233;'>
+<!ENTITY iacute '&#237;'>
+<!ENTITY oacute '&#243;'>
+<!ENTITY uacute '&#250;'>
+<!ENTITY ntilde '&#241;'>
+<!ENTITY Ntilde '&#209;'>
+<!ENTITY Aacute '&#193;'>
+<!ENTITY Eacute '&#201;'>
+<!ENTITY Iacute '&#205;'>
+<!ENTITY Oacute '&#211;'>
+<!ENTITY Uacute '&#218;'>
+<!ENTITY Uuml   '&#220;'>
+]>
+<document deny-modify='true' margin-left='0.5cm' margin-right='0.5cm' margin-top='0.2cm' margin-bottom='0.3cm' border-width-all='0.05' border-color-all='#707070'>
+    <style name='.ItemNameNormal' font-name='helvetica' font-size='9' vertical-align='top'/>
+    <style name='.ItemNameBold' font-name='helvetica-bold' font-size='9' vertical-align='top'/>
+    <style name='.ItemValueNormal' font-name='helvetica' font-size='9' vertical-align='top'/>
+    <style name='.ItemTextoVar' font-name='helvetica' font-size='9' vertical-align='top' align='left'/>
+    <style name='.ItemValueBold' font-name='helvetica-bold' font-size='9' vertical-align='top'/>
+    <style name='.ItemTituloSinFondo' font-name='helvetica-bold' font-size='11' vertical-align='middle'/>
+    <style name='.ItemTitulo' font-name='helvetica-bold' font-size='11' vertical-align='middle'  fill-color='#C0C0C0'/>
+    <style name='.ItemSubTitulo' font-name='helvetica-bold' font-size='10' vertical-align='top'  fill-color='#E0E0E0'/>
+    <style name='.ItemCob' font-name='helvetica' font-size='9' align='center' vertical-align='top'/>
+    <style name='.ItemCobL' font-name='helvetica' font-size='9' align='left' vertical-align='top'/>
+    <style name='.ItemCobR' font-name='helvetica' font-size='9' align='right' vertical-align='top'/>
+    <style name='.ItemValueChico' font-name='helvetica-bold' font-size='7' align='center' vertical-align='top'/>
+    <style name='.ItemTextoVar8' font-name='helvetica' font-size='8' vertical-align='top' align='left'/>
+    <images>
+      <merge source-element-name='imagenes'/>
+    </images>
+    <page-header indent-left='0' indent-right='0'>
+        <row>
+            <cell>
+                <table  border-width-bottom='0.1' widths='30%,70%'>
+                    <row>
+                        <cell align='left'><show-image image-name='logo'/></cell>
+                        <cell align='center' class='ItemTituloSinFondo'>COTIZACION DE ACCIDENTES PERSONALES</cell>
+                    </row>
+                </table>
+            </cell>
+        </row>
+    </page-header>
+    <page-footer indent-left='0' indent-right='0'  width='100%'>
+        <row>
+            <cell align='left' font-name='helvetica' font-size='7' text-color='blue' border-width-top='0.01' >
+                <link url='http://www.beneficioweb.com.ar'>www.beneficioweb.com.ar</link>
+            </cell>
+            <cell align='center' font-name='helvetica' font-size='7' border-width-top='0.01' >
+                BENEFICIO S.A.
+            </cell>
+            <cell border-width-top='0.01' align='right' font-size='7' font-name='helvetica'>
+                Pagina <page-number/> de <forward-reference name='total-pages'/>
+            </cell>
+        </row>
+    </page-footer>
+    <table widths='100%' border-width-all='0' border-color-all='#707070' keep-with-next='false' keep-together='false' padding-all='2'>
+        <row>
+            <cell align='center' class='ItemSubTitulo' vertical-align='middle' min-height='30'>Datos de la cotizaci&oacute;n</cell>
+        </row>
+        <row>
+            <cell>
+                <table widths='3cm,6cm,3cm,*' border-width-all='0'  padding-all='2' border-color-all='#707070' indent-left='0.5cm'>
+                    <row>
+                        <cell align='left'  class='ItemNameNormal' >Cotizaci&oacute;n Nº&nbsp;</cell>
+                        <cell align='left' class='ItemValueNormal'><merge source-element-name='C_NUM_COTIZACION'/></cell>
+                        <cell align='left'  class='ItemNameNormal'>Cotizado el:&nbsp;</cell>
+                        <cell align='left' class='ItemValueNormal'><merge source-element-name='C_FECHA_COTIZ'/></cell>
+                    </row>
+                    <row>
+                        <cell align='left' class='ItemNameNormal' vertical-align='top'>Cliente:</cell>
+                        <cell align='left' class='ItemValueNormal'><merge source-element-name='C_CLIENTE'/></cell>
+                        <cell align='left' class='ItemNameNormal'>Cotizador por:</cell>
+                        <cell align='left' class='ItemValueNormal'><merge source-element-name='C_PRODUCTOR'/></cell>
+                    </row>
+                    <row>
+                        <cell align='left' class='ItemNameNormal' vertical-align='top'>Asegurados:</cell>
+                        <cell align='left' class='ItemValueNormal'><merge source-element-name='C_CANT_PERSONAS'/></cell>
+                        <cell align='left' class='ItemNameNormal'>Provincia:</cell>
+                        <cell align='left' class='ItemValueNormal'><merge source-element-name='C_PROVINCIA'/></cell>
+                    </row>
+                    <row>
+                        <cell align='left' class='ItemNameNormal' vertical-align='top'>Vigencia:</cell>
+                        <cell align='left' class='ItemValueNormal'><merge source-element-name='C_VIGENCIA'/></cell>
+                        <cell align='left' class='ItemNameNormal'>Ambito:</cell>
+                        <cell align='left' class='ItemValueNormal'><merge source-element-name='C_AMBITO'/></cell>
+                    </row>
+                    <row>
+                        <cell align='left' class='ItemNameNormal'>Opcional:</cell>
+                        <cell align='left' class='ItemValueNormal' colspan='3'><merge source-element-name='C_OPCIONAL'/></cell>
+                    </row>
+                    <row>
+                        <cell align='left' class='ItemNameNormal' vertical-align='top'>Actividad:</cell>
+                        <cell align='left' class='ItemValueNormal' colspan='3'><merge source-element-name='C_ACTIVIDAD'/></cell>
+                    </row>
+                <if condition='ACTIVIDAD_SEC'>
+                    <row>
+                        <cell align='left' class='ItemNameNormal' vertical-align='top'>Actividad 2:</cell>
+                        <cell align='left' class='ItemValueNormal' colspan='3'><merge source-element-name='C_ACTIVIDAD_SEC'/></cell>
+                    </row>
+                </if>
+                    <row>
+                        <cell align='left' class='ItemNameNormal' vertical-align='top'>Tipo de asistencia:</cell>
+                        <cell align='left' class='ItemValueNormal' colspan='3'><merge source-element-name='C_PRESTACIONAL'/></cell>
+                    </row>
+                </table>
+            </cell>
+        </row>
+        <row>
+            <cell align='center' class='ItemSubTitulo' vertical-align='middle' min-height='30'>Coberturas</cell>
+        </row>
+        <row>
+            <cell align='center'>
+                <table widths='8cm,3cm' border-width-all='0'  padding-all='2' border-color-all='#707070' indent-left='2cm'>
+                    <row>
+                        <cell align='left' class='ItemNameNormal' vertical-align='top'>Muerte por accidente</cell>
+                        <cell align='right' class='ItemValueNormal'><merge source-element-name='C_SUMA_MUERTE'/></cell>
+                    </row>
+                    <row>
+                        <cell align='left' class='ItemNameNormal' vertical-align='top'>Invalidez permanente total y/o parcial</cell>
+                        <cell align='right' class='ItemValueNormal'><merge source-element-name='C_SUMA_INVALIDEZ'/></cell>
+                    </row>
+                    <row>
+                        <cell align='left' class='ItemNameNormal' vertical-align='top'>Asistencia médica farmaceutica</cell>
+                        <cell align='right' class='ItemValueNormal'><merge source-element-name='C_SUMA_ASISTENCIA'/></cell>
+                    </row>
+                    <row>
+                        <cell align='left' class='ItemNameNormal' vertical-align='top'>Franquicia</cell>
+                        <cell align='right' class='ItemValueNormal'><merge source-element-name='C_FRANQUICIA'/></cell>
+                    </row>
+                </table>
+            </cell>
+        </row>
+        <row>
+            <cell align='center' class='ItemSubTitulo' vertical-align='middle' min-height='30'>Costo</cell>
+        </row>
+        <if condition='CON_COMISION'>
+        <row>
+            <cell align='center'>
+                <table widths='25%,25%,25%,*' border-width-all='0'  padding-all='2' border-color-all='#707070' indent-left='0.5cm'>
+                    <row>
+                        <cell align='right' class='ItemTituloSinFondo' vertical-align='top'>Prima $&nbsp;<merge source-element-name='C_PRIMA'/></cell>
+                        <cell align='right' class='ItemTituloSinFondo' vertical-align='top'>(*) Premio $&nbsp;<merge source-element-name='C_PREMIO'/></cell>
+                        <cell align='right' class='ItemTituloSinFondo' vertical-align='top'>Comisión %&nbsp;<merge source-element-name='C_COMISION'/></cell>
+                        <cell>&nbsp;</cell>
+                    </row>
+<!--                    <row>
+                        <cell align='right' class='ItemTituloSinFondo' vertical-align='top'><merge source-element-name='C_PRIMA'/></cell>
+                        <cell align='right' class='ItemTituloSinFondo' vertical-align='top'><merge source-element-name='C_PREMIO'/></cell>
+                        <cell align='right' class='ItemTituloSinFondo' vertical-align='top'><merge source-element-name='C_COMISION'/></cell>
+                        <cell>&nbsp;</cell>
+                    </row>
+-->
+                </table>
+            </cell>
+        </row>
+        </if>
+        <if condition='SIN_COMISION'>
+        <row>
+            <cell align='center'>
+                <table widths='33%,33%,*' border-width-all='0'  padding-all='2' border-color-all='#707070' indent-left='0.5cm'>
+                    <row>
+                        <cell align='left' class='ItemTituloSinFondo' vertical-align='top'>Prima $&nbsp;<merge source-element-name='C_PRIMA'/></cell>
+                        <cell align='left' class='ItemTituloSinFondo' vertical-align='top'>(*) Premio $&nbsp;<merge source-element-name='C_PREMIO'/></cell>
+                        <cell>&nbsp;</cell>
+                    </row>
+<!--                    <row>
+                        <cell align='left' class='ItemTituloSinFondo' vertical-align='top'><merge source-element-name='C_PRIMA'/></cell>
+                        <cell align='left' class='ItemTituloSinFondo' vertical-align='top'><merge source-element-name='C_PREMIO'/></cell>
+                        <cell>&nbsp;</cell>
+                    </row>
+-->
+                </table>
+            </cell>
+        </row>
+        </if>
+        <row>
+            <cell align='left' class='ItemValueChico' min-height='30' vertical-align='middle'>
+		&nbsp;Esta cotización tendrá una validez de 15 días a partir de la fecha de cotización.
+                (*) El premio incluye sellados provinciales.
+            </cell>
+        </row>
+        <row>
+            <cell align='left' class='.ItemTextoVar8' min-height='30' vertical-align='middle'>
+                <merge source-element-name='C_FORMA_PAGO'/>
+            </cell>
+        </row>
+        <row>
+            <cell align='left' class='.ItemTextoVar8' min-height='30' vertical-align='top'>
+                <table width='90%'  padding-all='1' border-width-all='0' align='left' >
+                        <merge source-element-name='TABLA_FINANCIACION'/>
+                </table>                      
+            </cell>
+        </row>
+        <row>
+            <cell align='right' vertical-align='bottom'  min-height='250'>
+                <show-image image-name='firma' scale-width='128' scale-height='113'/>
+            </cell>
+        </row>
+    </table>
+</document>

@@ -1,0 +1,62 @@
+sistemas@beneficiosa.com.ar&&relisii@beneficiosa.com.ar&&null&&null&&PROPUESTA VIDA OBLIGATORIO - N° 522250&&AVISO DE ENVIO DE PROPUESTA DE VIDA OBLIGATORIO - N 522250
+---------------------------------------
+
+NUM PROPUESTA: 522250
+ENVIADA POR  : ELISII ROLANDO
+PRODUCTOR    : PRUEBA    (31038)
+NUM COTIZACION: 0
+FECHA        : 13/02/2014, 11:45
+ 
+Tomador           : WFSADASDASDASD ADASDASD
+DNI               : CUIT/L 20226975765
+Domicilio         : ADADSAD ASDASDSDAS (1897) - Buenos Aires
+Ambito            : null
+Como enviar póliza: Desea recibir la póliza via mail
+Descripción Tareas: null
+Cond I.V.A        : Exento
+ 
+Características del seguro
+-------------------------- 
+Vigencia            : Anual, desde 01/02/2014 hasta 31/01/2015
+Facturación         : Anual
+Cantidad de Vidas   : 2
+ 
+Descripcion de Coberturas
+-------------------------
+Muerte por accidente                   $      12,000.00
+Invalidez permanente total y/o parcial $            .00
+Asistencia medica farmaceutica         $            .00
+Franquicia                             $            .00
+ 
+Presupuesto
+-----------
+Prima pura          $          59.04
+Sub-Total           $          59.04
+Subtotal            $          59.04
+ GDA             4.00%  $        .00
+Recargos finan.   .00%  $        .00
+Derecho de Emision  $          12.00
+Prima Tarifa        $          71.04
+ Ajustes opciones: no ajusta.
+ Ajustes opcionales: no ajusta.
+ IVA    .00%        $            .00
+ Tasa SSN    .00%   $            .00
+ Serv.Soc    .00%   $            .00
+ Sellado     .00%   $            .00
+Premio              $          71.04
+Forma de Pago:
+CUPONES, 1 cuotas de $.00
+
+
+ 
+Nómina de asegurados 
+-------------------- 
+  - PRUEBA 1  CUIT/L: 20226975765 - F. Nac: 12/12/1978
+  - PRUEBA 2  CUIT/L: 20344641480 - F. Nac: 12/12/1978
+ 
+Observaciones
+---------------------------- 
+
+ 
+Este es un mensaje automático generado por BENEFICIO WEB.
+Cualquier duda o consulta puede comunicarse por este medio a webmaster@beneficiosa.com.ar

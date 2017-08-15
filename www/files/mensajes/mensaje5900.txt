@@ -1,0 +1,16 @@
+sistemas@beneficiosa.com.ar&&relisii@beneficiosa.com.ar&&null&&null&&Beneficio Web - AVISO de MODIFICACION DE DATOS DEL PRODUCTOR (0)&&AVISO DE MODIFICACION DE DATOS DEL PRODUCTOR ELISII ROLANDO - Cod. 0
+-------------------------------------------------------------------------------------
+
+El productor ha modificado desde la web la siguiente información:
+TELEFONO : 01111111111
+EMAIL: 
+DIRECCION - CALLE : AAAAAAAAAAAAAAAAAAAAAAA
+DIRECCION - NUMERO: 
+DIRECCION - DEPTO : 
+DIRECCION - PISO  : 
+DIRECCION - LOCALIDAD : CAPITAL FEDERAL
+DIRECCION - COD.POSTAL: 1429
+DIRFECCION - PCIA: 1
+OBSERVACIONES: 
+Este es un mensaje automático generado por BENEFICIO WEB.
+Cualquier duda o consulta puede comunicarse por este medio a webmaster@beneficiosa.com.ar

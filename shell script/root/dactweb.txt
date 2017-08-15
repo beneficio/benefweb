@@ -1,0 +1,1 @@
+PROGRAMA=/divcen/bin/dactweb

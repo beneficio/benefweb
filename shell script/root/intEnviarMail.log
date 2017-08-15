@@ -1,0 +1,284 @@
+*********************************************************************** 
+* Se recupero informacion del archivo config.xml
+*********************************************************************** 
+(*2) Error En el Envio Mail. Usuario : 46100 , mail : ISUDROT@ESTUDIOSUCROT.COM.AR, mensaje:  Invalid Addresses;
+  nested exception is:
+	class com.sun.mail.smtp.SMTPAddressFailedException: 511 sorry, can't find a valid MX for rcpt domain (#5.1.1 - chkuser)
+
+(*2) Error En el Envio Mail. Usuario : 33863 , mail : VILLAMARIA@ENTEPRAIZ.COM.AR, mensaje:  Invalid Addresses;
+  nested exception is:
+	class com.sun.mail.smtp.SMTPAddressFailedException: 451 DNS temporary failure (#4.5.1 - chkuser)
+
+(*2) Error En el Envio Mail. Usuario : 41912 , mail : SEGUROS@BMSEGUROS.COM.AR, mensaje:  Invalid Addresses;
+  nested exception is:
+	class com.sun.mail.smtp.SMTPAddressFailedException: 511 sorry, can't find a valid MX for rcpt domain (#5.1.1 - chkuser)
+
+(*2) Error En el Envio Mail. Usuario : 41343 , mail : GCLIMIA@GCLIMIAYASOCIADOS.COM.AR, mensaje:  Invalid Addresses;
+  nested exception is:
+	class com.sun.mail.smtp.SMTPAddressFailedException: 511 sorry, can't find a valid MX for rcpt domain (#5.1.1 - chkuser)
+
+(*2) Error En el Envio Mail. Usuario : 38644 , mail : SEGUROS@SCANDOLORACANATI.COM.AR, mensaje:  Invalid Addresses;
+  nested exception is:
+	class com.sun.mail.smtp.SMTPAddressFailedException: 451 DNS temporary failure (#4.5.1 - chkuser)
+
+(*2) Error En el Envio Mail. Usuario : 39101 , mail : GCASASCORDERO@NIBSEG.COM.AR, mensaje:  Invalid Addresses;
+  nested exception is:
+	class com.sun.mail.smtp.SMTPAddressFailedException: 511 sorry, can't find a valid MX for rcpt domain (#5.1.1 - chkuser)
+
+(*2) Error En el Envio Mail. Usuario : 45781 , mail : PRODUCCION.SIUIPACHA@GMAIL.COM, mensaje:  Invalid Addresses;
+  nested exception is:
+	class com.sun.mail.smtp.SMTPAddressFailedException: 511 sorry, recipient address has invalid format (#5.1.1 - chkuser)
+
+(*2) Error En el Envio Mail. Usuario : 42056 , mail : HMEDINA@ESTUDIOOQA.COM.AR, mensaje:  Invalid Addresses;
+  nested exception is:
+	class com.sun.mail.smtp.SMTPAddressFailedException: 511 sorry, can't find a valid MX for rcpt domain (#5.1.1 - chkuser)
+
+(*2) Error En el Envio Mail. Usuario : 41696 , mail : DPERALTA@ENTEPRAIZ.COM.AR, mensaje:  Invalid Addresses;
+  nested exception is:
+	class com.sun.mail.smtp.SMTPAddressFailedException: 451 DNS temporary failure (#4.5.1 - chkuser)
+
+(*2) Error En el Envio Mail. Usuario : 42951 , mail : DPERALTA@ENTEPRAIZ.COM.AR, mensaje:  Invalid Addresses;
+  nested exception is:
+	class com.sun.mail.smtp.SMTPAddressFailedException: 451 DNS temporary failure (#4.5.1 - chkuser)
+
+(*2) Error En el Envio Mail. Usuario : 43656 , mail : COBRANZAS@GIORGIYASOC.COM.AR, mensaje:  Invalid Addresses;
+  nested exception is:
+	class com.sun.mail.smtp.SMTPAddressFailedException: 511 sorry, can't find a valid MX for rcpt domain (#5.1.1 - chkuser)
+
+(*2) Error En el Envio Mail. Usuario : 44229 , mail : J.ARRIEGADA@UNINSAT.COM.AR, mensaje:  Invalid Addresses;
+  nested exception is:
+	class com.sun.mail.smtp.SMTPAddressFailedException: 511 sorry, can't find a valid MX for rcpt domain (#5.1.1 - chkuser)
+
+(*2) Error En el Envio Mail. Usuario : 45292 , mail : SECRETARIA@ESTUDIOGRAFIGNA.COM.AR, mensaje:  Invalid Addresses;
+  nested exception is:
+	class com.sun.mail.smtp.SMTPAddressFailedException: 511 sorry, can't find a valid MX for rcpt domain (#5.1.1 - chkuser)
+
+(*2) Error En el Envio Mail. Usuario : 45373 , mail : JLG@ORGANIZACIONGALLO.OM.AR, mensaje:  Invalid Addresses;
+  nested exception is:
+	class com.sun.mail.smtp.SMTPAddressFailedException: 511 sorry, can't find a valid MX for rcpt domain (#5.1.1 - chkuser)
+
+(*2) Error En el Envio Mail. Usuario : 46001 , mail : HUGO@CASSIET.COM, mensaje:  Invalid Addresses;
+  nested exception is:
+	class com.sun.mail.smtp.SMTPAddressFailedException: 511 sorry, can't find a valid MX for rcpt domain (#5.1.1 - chkuser)
+
+* Encuesta enviada 2011/07/12 14:31:04 , al Usuario : 3549 Mail : RODRIGOLSALAS@CIUDAD.COM.AR
+* Encuesta enviada 2011/07/12 14:31:06 , al Usuario : 7587 Mail : SALACARLOMAGNO@YAHOO.COM.AR
+* Encuesta enviada 2011/07/12 14:31:07 , al Usuario : 8567 Mail : LEOFRANCHELLI@HOTMAIL.COM
+* Encuesta enviada 2011/07/12 14:31:08 , al Usuario : 8591 Mail : CESARPEREIRA@ARNET.COM.AR
+* Encuesta enviada 2011/07/12 14:31:09 , al Usuario : 8699 Mail : SEG_CASTANETTO@YAHOO.COM.AR
+* Encuesta enviada 2011/07/12 14:31:10 , al Usuario : 9041 Mail : PISANOPRIOTTI@FIBERTEL.COM.AR
+* Encuesta enviada 2011/07/12 14:31:12 , al Usuario : 9598 Mail : RAMONEMMA@EMMARAMON.COM.AR
+* Encuesta enviada 2011/07/12 14:31:13 , al Usuario : 9849 Mail : RJZUNIGA@ARNET.COM.AR
+* Encuesta enviada 2011/07/12 14:31:14 , al Usuario : 15113 Mail : RYMSEGUROS@CIUDAD.COM.AR
+* (*a) La encuesta del usuario: 20222 ya fue enviada a esta direccion de mail  : RYMSEGUROS@CIUDAD.COM.AR (Usuario : 15113 )
+* Encuesta enviada 2011/07/12 14:31:15 , al Usuario : 10685 Mail : ENRIQUESEGURO@HOTMAIL.COM
+* Encuesta enviada 2011/07/12 14:31:16 , al Usuario : 11380 Mail : JBORZATTA@FIBERTEL.COM.AR
+* Encuesta enviada 2011/07/12 14:31:17 , al Usuario : 32808 Mail : CARLOS@ORLANDO.NET.AR
+* Encuesta enviada 2011/07/12 14:31:18 , al Usuario : 33090 Mail : MSEGUROS@GIGARED.COM
+* Encuesta enviada 2011/07/12 14:31:19 , al Usuario : 34029 Mail : QUIROZSEGUROS@YAHOO.COM.AR
+* (*a) La encuesta del usuario: 35106 ya fue enviada a esta direccion de mail  : JBORZATTA@FIBERTEL.COM.AR (Usuario : 11380 )
+* Encuesta enviada 2011/07/12 14:31:21 , al Usuario : 12211 Mail : DANIEL@URTUBEYBOCCALINI.COM.AR
+* Encuesta enviada 2011/07/12 14:31:22 , al Usuario : 35203 Mail : ABAIMA@STEELCDG.COM.AR
+* Encuesta enviada 2011/07/12 14:31:23 , al Usuario : 19933 Mail : SEGUROSOESTE@ARNET.COM.AR
+* Encuesta enviada 2011/07/12 14:31:24 , al Usuario : 34720 Mail : MREPETTO@HOTMAIL.COM
+* Encuesta enviada 2011/07/12 14:31:25 , al Usuario : 2071 Mail : SIADANZA@FIBERTEL.COM.AR
+* Encuesta enviada 2011/07/12 14:31:26 , al Usuario : 13331 Mail : NOYANO@COOPVGG.COM.AR
+* Encuesta enviada 2011/07/12 14:31:27 , al Usuario : 14273 Mail : BOSSELMARISA@CIUDAD.COM.AR
+* Encuesta enviada 2011/07/12 14:31:28 , al Usuario : 34886 Mail : JPORRATO@SERVICOOPSA.COM.AR
+* Encuesta enviada 2011/07/12 14:31:29 , al Usuario : 14818 Mail : JORGEOPELLEGRINI@ARNET.COM.AR
+* Encuesta enviada 2011/07/12 14:31:31 , al Usuario : 15539 Mail : TALLARICO@TALLARICOYASOCIADOS.COM.AR
+* Encuesta enviada 2011/07/12 14:31:32 , al Usuario : 16381 Mail : COBRANZAS.MAY@HOTMAIL.COM
+* Encuesta enviada 2011/07/12 14:31:33 , al Usuario : 16411 Mail : CMAY@SEGUROSMAY.COM.AR
+* Encuesta enviada 2011/07/12 14:31:34 , al Usuario : 16888 Mail : SALCEDOSEGUROS@HOTMAIL.COM
+* Encuesta enviada 2011/07/12 14:31:35 , al Usuario : 45977 Mail : LOPEZ_CESAR@HOTMAIL.COM
+* Encuesta enviada 2011/07/12 14:31:37 , al Usuario : 19518 Mail : JRUFACH@CIUDAD.COM.AR
+* Encuesta enviada 2011/07/12 14:31:38 , al Usuario : 19658 Mail : SEGUROS@SCOLLONELIDA.ARNETBIZ.COM.AR
+* Encuesta enviada 2011/07/12 14:31:39 , al Usuario : 19879 Mail : SILVIA@VERTAPANIZZA.COM.AR
+* Encuesta enviada 2011/07/12 14:31:40 , al Usuario : 20460 Mail : HERNAN@GALLARDOSEGUROS.COM.AR
+* Encuesta enviada 2011/07/12 14:31:42 , al Usuario : 20583 Mail : GRACIELASIMAN@GMAIL.COM
+* Encuesta enviada 2011/07/12 14:31:43 , al Usuario : 21709 Mail : PIRAMIDESEGUROS@UOLSINECTIS.COM.AR
+* Encuesta enviada 2011/07/12 14:31:44 , al Usuario : 23230 Mail : JCTORINO@ARNETBIZ.COM.AR
+* Encuesta enviada 2011/07/12 14:31:46 , al Usuario : 24210 Mail : HCIUFFO@CIUDAD.COM.AR
+* Encuesta enviada 2011/07/12 14:31:47 , al Usuario : 24341 Mail : DCOP@ARNET.COM.AR
+* Encuesta enviada 2011/07/12 14:31:48 , al Usuario : 25887 Mail : IRMAROD@ARNET.COM.AR
+* Encuesta enviada 2011/07/12 14:31:49 , al Usuario : 27065 Mail : DEBO_155@HOTMAIL.COM
+* Encuesta enviada 2011/07/12 14:31:50 , al Usuario : 27472 Mail : SEGUROSVEGA@HOTMAIL.COM
+* Encuesta enviada 2011/07/12 14:31:51 , al Usuario : 27502 Mail : NORMAWEICHHART@ARNET.COM.AR
+* Encuesta enviada 2011/07/12 14:31:52 , al Usuario : 27821 Mail : ESTEBAN_NICOLASM@HOTMAIL.COM
+* Encuesta enviada 2011/07/12 14:31:53 , al Usuario : 28011 Mail : VYV.SEGUROS@SPEEDY.COM.AR
+* Encuesta enviada 2011/07/12 14:31:56 , al Usuario : 29637 Mail : LUCIOPRADO@RIOTEL.COM.AR
+* Encuesta enviada 2011/07/12 14:31:57 , al Usuario : 29653 Mail : AGROSALTASEG@YAHOO.COM.AR
+* Encuesta enviada 2011/07/12 14:31:58 , al Usuario : 30066 Mail : SRGUITA@SERVICOOPSA.COM.AR
+* Encuesta enviada 2011/07/12 14:31:59 , al Usuario : 30317 Mail : GPS@TILISARAONET.COM.AR
+* Encuesta enviada 2011/07/12 14:32:00 , al Usuario : 30970 Mail : MARCELAPAIS@SPEEDY.COM.AR
+* Encuesta enviada 2011/07/12 14:32:01 , al Usuario : 31381 Mail : PROLDAN2006@YAHOO.COM.AR
+* Encuesta enviada 2011/07/12 14:32:02 , al Usuario : 31399 Mail : JTSEGUROS@NECOCHEANET.COM.AR
+* Encuesta enviada 2011/07/12 14:32:04 , al Usuario : 31615 Mail : BORRAJOSEGUROS@HOTMAIL.COM
+* Encuesta enviada 2011/07/12 14:32:05 , al Usuario : 33057 Mail : OESTESEGUROS@INFOVIA.COM.AR
+* Encuesta enviada 2011/07/12 14:32:06 , al Usuario : 33405 Mail : PACORW@ARNET.COM.AR
+* Encuesta enviada 2011/07/12 14:32:07 , al Usuario : 33570 Mail : SEGUROSMARIANI@SPEEDY.COM.AR
+* Encuesta enviada 2011/07/12 14:32:08 , al Usuario : 33723 Mail : LIDERAR@NECOCHEANET.COM.AR
+* Encuesta enviada 2011/07/12 14:32:09 , al Usuario : 35386 Mail : MENDIZABALMARIA@SPEEDY.COM.AR
+* Encuesta enviada 2011/07/12 14:32:11 , al Usuario : 36510 Mail : PROTECTORACORDOBESA@FULLZERO.COM.AR
+* Encuesta enviada 2011/07/12 14:32:12 , al Usuario : 36684 Mail : MARCIAGOMEZ@SPEEDY.COM.AR
+* Encuesta enviada 2011/07/12 14:32:13 , al Usuario : 36706 Mail : SEBASTIAN_DECURNEX73@HOTMAIL.COM
+* Encuesta enviada 2011/07/12 14:32:14 , al Usuario : 37389 Mail : JUAREZSEGUROS@SPEEDY.COM.AR
+* Encuesta enviada 2011/07/12 14:32:15 , al Usuario : 37397 Mail : INFO@KANTORSEGUROS.COM.AR
+* Encuesta enviada 2011/07/12 14:32:16 , al Usuario : 37613 Mail : JLSEGUROS@TELPIN.COM.AR
+* Encuesta enviada 2011/07/12 14:32:18 , al Usuario : 38024 Mail : LUNAJULIO@TUTOPIA.COM
+* Encuesta enviada 2011/07/12 14:32:19 , al Usuario : 38059 Mail : ALE@CAE.CNEA.GOV.AR
+* Encuesta enviada 2011/07/12 14:32:21 , al Usuario : 38113 Mail : ALICIABORDABERRY@JORGEDIAZYASOCIADOS.COM.AR
+* Encuesta enviada 2011/07/12 14:32:22 , al Usuario : 38172 Mail : SEGUROSSANDRAYJORGE@INFOVIA.COM.AR
+* Encuesta enviada 2011/07/12 14:32:23 , al Usuario : 39012 Mail : FOTALORA@ARNET.COM.AR
+* Encuesta enviada 2011/07/12 14:32:26 , al Usuario : 41602 Mail : SEBA@LOG.COM.AR
+* Encuesta enviada 2011/07/12 14:32:27 , al Usuario : 42331 Mail : MRF478@YAHOO.COM.AR
+* Encuesta enviada 2011/07/12 14:32:28 , al Usuario : 44784 Mail : YANINA.RODRIGUEZ@ESTUDIOZALAZAR.COM.AR
+* Encuesta enviada 2011/07/12 14:32:29 , al Usuario : 45403 Mail : NOEMI_CARRAL@YAHOO.COM.AR
+* Encuesta enviada 2011/07/12 14:32:30 , al Usuario : 45535 Mail : MARIOCARRER@ESTUDIOCACERESYASOC.COM.AR
+* Encuesta enviada 2011/07/12 14:32:31 , al Usuario : 45713 Mail : SEGUROSGP@SPEEDY.COM.AR
+* Encuesta enviada 2011/07/12 14:32:33 , al Usuario : 45748 Mail : SEGUROSMORARDO@YAHOO.COM.AR
+* Encuesta enviada 2011/07/12 14:32:34 , al Usuario : 45951 Mail : MIGUEL_ESTUDIO@ARNET.COM.AR
+* Encuesta enviada 2011/07/12 14:32:35 , al Usuario : 46062 Mail : NORAMARTINEZ25@YAHOO.COM.AR
+* Encuesta enviada 2011/07/12 14:32:36 , al Usuario : 46063 Mail : BSASSUR@GMAIL.COM
+* Encuesta enviada 2011/07/12 14:32:37 , al Usuario : 46066 Mail : VAZDAN2004@YAHOO.COM.AR
+* Encuesta enviada 2011/07/12 14:32:38 , al Usuario : 46070 Mail : MARGARITADILELLA@YAHOO.COM.AR
+* Encuesta enviada 2011/07/12 14:32:40 , al Usuario : 46073 Mail : MARINA@CLEVERCONSULTORES.COM.AR
+* Encuesta enviada 2011/07/12 14:32:41 , al Usuario : 46077 Mail : HECTORJBARRERA@YAHOO.COM.AR
+* Encuesta enviada 2011/07/12 14:32:42 , al Usuario : 46083 Mail : JZSEGUROS@HOTMAIL.COM
+* Encuesta enviada 2011/07/12 14:32:43 , al Usuario : 46087 Mail : LEONARDOSALVAI@YAHOO.COM.AR
+* Encuesta enviada 2011/07/12 14:32:44 , al Usuario : 46107 Mail : JMINETI@HOTMAIL.COM
+* Encuesta enviada 2011/07/12 14:32:46 , al Usuario : 46117 Mail : SEBASTIAN-1966@HOTMAIL.ES
+* Encuesta enviada 2011/07/12 14:32:48 , al Usuario : 46118 Mail : EZEQUIEL.LIMA@RSACENLITORAL.COM.AR
+* Encuesta enviada 2011/07/12 14:32:49 , al Usuario : 46122 Mail : BORELLILUCILDA@HOTMAIL.COM
+* Encuesta enviada 2011/07/12 14:32:50 , al Usuario : 46123 Mail : ANDREASCBLANCO@HOTMAIL.COM
+* Encuesta enviada 2011/07/12 14:32:51 , al Usuario : 46125 Mail : AFERNANDEZ2526@YAHOO.COM.AR
+* Encuesta enviada 2011/07/12 14:32:52 , al Usuario : 46126 Mail : CHINA_EPG@YAHOO.COM.AR
+* Encuesta enviada 2011/07/12 14:32:54 , al Usuario : 46127 Mail : DANIEL_GALLARDOSEG@HOTMAIL.COM
+* Encuesta enviada 2011/07/12 14:32:55 , al Usuario : 46128 Mail : ALFONZOFABIAN@YAHOO.COM.AR
+* Encuesta enviada 2011/07/12 14:32:56 , al Usuario : 46129 Mail : NATY_BOIKO@HOTMAIL.COM
+* Encuesta enviada 2011/07/12 14:32:57 , al Usuario : 29327 Mail : KAROLINA_DA@HOTMAIL.COM
+* Encuesta enviada 2011/07/12 14:32:58 , al Usuario : 38164 Mail : GUISANDEO@SPEEDY.COM.AR
+* Encuesta enviada 2011/07/12 14:32:59 , al Usuario : 26450 Mail : EBIANCHISEGUROS@ARNET.COM.AR
+* Encuesta enviada 2011/07/12 14:33:00 , al Usuario : 26468 Mail : GESTORIABARTOLINI@HOTMAIL.COM
+* Encuesta enviada 2011/07/12 14:33:01 , al Usuario : 26557 Mail : RICARDORUESCH@YAHOO.COM.AR
+* Encuesta enviada 2011/07/12 14:33:02 , al Usuario : 26620 Mail : SEGUROSDRAGONE@GMAIL.COM
+* Encuesta enviada 2011/07/12 14:33:03 , al Usuario : 26719 Mail : MARCELINODELCARLO@YAHOO.COM.AR
+* Encuesta enviada 2011/07/12 14:33:05 , al Usuario : 26751 Mail : ARABALO@SPEEDY.COM.AR
+* Encuesta enviada 2011/07/12 14:33:06 , al Usuario : 26816 Mail : ETEGA@ARNET.COM.AR
+* Encuesta enviada 2011/07/12 14:33:07 , al Usuario : 26867 Mail : ORGANIZACIONTRECE@SPEEDY.COM.AR
+* (*a) La encuesta del usuario: 28380 ya fue enviada a esta direccion de mail  : ORGANIZACIONTRECE@SPEEDY.COM.AR (Usuario : 26867 )
+* (*a) La encuesta del usuario: 28495 ya fue enviada a esta direccion de mail  : ORGANIZACIONTRECE@SPEEDY.COM.AR (Usuario : 26867 )
+* (*a) La encuesta del usuario: 30554 ya fue enviada a esta direccion de mail  : ORGANIZACIONTRECE@SPEEDY.COM.AR (Usuario : 26867 )
+* Encuesta enviada 2011/07/12 14:33:08 , al Usuario : 32506 Mail : HEBECOSTA@ARNET.COM.AR
+* (*a) La encuesta del usuario: 33596 ya fue enviada a esta direccion de mail  : ORGANIZACIONTRECE@SPEEDY.COM.AR (Usuario : 26867 )
+* (*a) La encuesta del usuario: 34533 ya fue enviada a esta direccion de mail  : ORGANIZACIONTRECE@SPEEDY.COM.AR (Usuario : 26867 )
+* (*a) La encuesta del usuario: 35017 ya fue enviada a esta direccion de mail  : ORGANIZACIONTRECE@SPEEDY.COM.AR (Usuario : 26867 )
+* (*a) La encuesta del usuario: 35483 ya fue enviada a esta direccion de mail  : ORGANIZACIONTRECE@SPEEDY.COM.AR (Usuario : 26867 )
+* Encuesta enviada 2011/07/12 14:33:09 , al Usuario : 35602 Mail : MCARVALHO_SEGUROS@HOTMAIL.COM
+* Encuesta enviada 2011/07/12 14:33:11 , al Usuario : 36544 Mail : SEGUROS@BRUNOSEGUROS.COM.AR
+* Encuesta enviada 2011/07/12 14:33:12 , al Usuario : 38440 Mail : FABIANCAVALIERE@SPEEDY.COM.AR
+* Encuesta enviada 2011/07/12 14:33:13 , al Usuario : 36307 Mail : BONFANTISEGUROS@ARGENTINA.COM
+* Encuesta enviada 2011/07/12 14:33:15 , al Usuario : 27006 Mail : IGNACIO@ANSELMISEGUROS.COM.AR
+* (*a) La encuesta del usuario: 45519 ya fue enviada a esta direccion de mail  : IGNACIO@ANSELMISEGUROS.COM.AR (Usuario : 27006 )
+* Encuesta enviada 2011/07/12 14:33:16 , al Usuario : 27022 Mail : LEONARDOMALLO@RSPSEGURIDAD.COM.AR
+* Encuesta enviada 2011/07/12 14:33:18 , al Usuario : 27103 Mail : INFO@CAMPALSEGUROS.COM.AR
+* Encuesta enviada 2011/07/12 14:33:19 , al Usuario : 26662 Mail : AGONZALEZSEGUROS@FIBERTEL.COM.AR
+* Encuesta enviada 2011/07/12 14:33:20 , al Usuario : 26778 Mail : LARAESEGUROS@YAHOO.COM.AR
+* Encuesta enviada 2011/07/12 14:33:21 , al Usuario : 26808 Mail : ESTUDIONORTE2@HOTMAIL.COM
+* Encuesta enviada 2011/07/12 14:33:23 , al Usuario : 27090 Mail : ORSAN22@YAHOO.ES
+* Encuesta enviada 2011/07/12 14:33:24 , al Usuario : 27138 Mail : ASEGURADORES@FIBERTEL.COM.AR
+* Encuesta enviada 2011/07/12 14:33:25 , al Usuario : 27162 Mail : SILVIAMENKE@YAHOO.COM.AR
+* Encuesta enviada 2011/07/12 14:33:26 , al Usuario : 27235 Mail : ROBERTOVIDAL@ARNET.COM.AR
+* Encuesta enviada 2011/07/12 14:33:27 , al Usuario : 27383 Mail : MECASEGUROS@ORG-MELOCALVO.COM.AR
+* Encuesta enviada 2011/07/12 14:33:28 , al Usuario : 27448 Mail : SAMPEDROSEGUROS@SPEEDY.COM.AR
+* Encuesta enviada 2011/07/12 14:33:30 , al Usuario : 27464 Mail : JUANPABLOAGA@CONSULTINGRISK.COM.AR
+* (*a) La encuesta del usuario: 31780 ya fue enviada a esta direccion de mail  : JUANPABLOAGA@CONSULTINGRISK.COM.AR (Usuario : 27464 )
+* (*a) La encuesta del usuario: 36552 ya fue enviada a esta direccion de mail  : JUANPABLOAGA@CONSULTINGRISK.COM.AR (Usuario : 27464 )
+* (*a) La encuesta del usuario: 36587 ya fue enviada a esta direccion de mail  : JUANPABLOAGA@CONSULTINGRISK.COM.AR (Usuario : 27464 )
+* (*a) La encuesta del usuario: 36641 ya fue enviada a esta direccion de mail  : JUANPABLOAGA@CONSULTINGRISK.COM.AR (Usuario : 27464 )
+* (*a) La encuesta del usuario: 36650 ya fue enviada a esta direccion de mail  : JUANPABLOAGA@CONSULTINGRISK.COM.AR (Usuario : 27464 )
+* (*a) La encuesta del usuario: 36790 ya fue enviada a esta direccion de mail  : JUANPABLOAGA@CONSULTINGRISK.COM.AR (Usuario : 27464 )
+* (*a) La encuesta del usuario: 38229 ya fue enviada a esta direccion de mail  : JUANPABLOAGA@CONSULTINGRISK.COM.AR (Usuario : 27464 )
+* (*a) La encuesta del usuario: 38504 ya fue enviada a esta direccion de mail  : JUANPABLOAGA@CONSULTINGRISK.COM.AR (Usuario : 27464 )
+* (*a) La encuesta del usuario: 39624 ya fue enviada a esta direccion de mail  : JUANPABLOAGA@CONSULTINGRISK.COM.AR (Usuario : 27464 )
+* (*a) La encuesta del usuario: 41254 ya fue enviada a esta direccion de mail  : JUANPABLOAGA@CONSULTINGRISK.COM.AR (Usuario : 27464 )
+* (*a) La encuesta del usuario: 43303 ya fue enviada a esta direccion de mail  : JUANPABLOAGA@CONSULTINGRISK.COM.AR (Usuario : 27464 )
+* (*a) La encuesta del usuario: 43516 ya fue enviada a esta direccion de mail  : JUANPABLOAGA@CONSULTINGRISK.COM.AR (Usuario : 27464 )
+* (*a) La encuesta del usuario: 43770 ya fue enviada a esta direccion de mail  : JUANPABLOAGA@CONSULTINGRISK.COM.AR (Usuario : 27464 )
+* Encuesta enviada 2011/07/12 14:33:31 , al Usuario : 27511 Mail : LUCEROSEGUROS@YAHOO.COM.AR
+* Encuesta enviada 2011/07/12 14:33:32 , al Usuario : 27545 Mail : SEGUROSPINOLA@SPEEDY.COM.AR
+* Encuesta enviada 2011/07/12 14:33:33 , al Usuario : 27561 Mail : SEGUROSHYM@FIBERTEL.COM.AR
+* Encuesta enviada 2011/07/12 14:33:34 , al Usuario : 27570 Mail : FERNANDEZLETZ@GMAIL.COM
+* Encuesta enviada 2011/07/12 14:33:35 , al Usuario : 27596 Mail : HMOLFINO@NETIZEN.COM.AR
+* Encuesta enviada 2011/07/12 14:33:36 , al Usuario : 27634 Mail : RUZZENESEGUROS@SPEEDY.COM.AR
+* Encuesta enviada 2011/07/12 14:33:39 , al Usuario : 27715 Mail : ASESORESDESEGUROS@LMASTRANGELO.COM.AR
+* Encuesta enviada 2011/07/12 14:33:40 , al Usuario : 27740 Mail : VEASEGUROS@HOTMAIL.COM
+* Encuesta enviada 2011/07/12 14:33:41 , al Usuario : 27766 Mail : SEGUROS@LFSEGUROS.COM.AR
+* Encuesta enviada 2011/07/12 14:33:42 , al Usuario : 27774 Mail : SUAREZSEGUROS@GRUPOSUAREZ.COM.AR
+* Encuesta enviada 2011/07/12 14:33:43 , al Usuario : 27782 Mail : LIBERTYDOL@SPEEDY.COM.AR
+* Encuesta enviada 2011/07/12 14:33:53 , al Usuario : 27791 Mail : SEGUROS@OSCARTRACOGNA.COM.AR
+* Encuesta enviada 2011/07/12 14:33:54 , al Usuario : 27847 Mail : BUBITA@CIUDAD.COM.AR
+* Encuesta enviada 2011/07/12 14:33:55 , al Usuario : 27855 Mail : CONDESEGUROS@SPEEDY.COM.AR
+* Encuesta enviada 2011/07/12 14:33:56 , al Usuario : 27880 Mail : MALAMUDSEGUROS@DATAFULL.COM
+* Encuesta enviada 2011/07/12 14:33:58 , al Usuario : 27961 Mail : ODGUEVARA@HOTMAIL.COM
+* (*a) La encuesta del usuario: 28002 ya fue enviada a esta direccion de mail  : MARCELINODELCARLO@YAHOO.COM.AR (Usuario : 26719 )
+* Encuesta enviada 2011/07/12 14:33:59 , al Usuario : 28029 Mail : S_DEPASQUALE@HOTMAIL.COM
+* Encuesta enviada 2011/07/12 14:34:00 , al Usuario : 28096 Mail : SANCHEZ_PAGANINI@CIUDAD.COM.AR
+* Encuesta enviada 2011/07/12 14:34:01 , al Usuario : 28151 Mail : JULIAFERRARI@FIBERTEL.COM.AR
+* Encuesta enviada 2011/07/12 14:34:02 , al Usuario : 34134 Mail : ORGSAGER@MALABRIGO.TRCNET.COM.AR
+* Encuesta enviada 2011/07/12 14:34:03 , al Usuario : 34649 Mail : JFMERITANO@YAHOO.COM.AR
+* Encuesta enviada 2011/07/12 14:34:04 , al Usuario : 40291 Mail : ROXANATERSOL@HOTMAIL.COM
+(*2) Error En el Envio Mail. Usuario : 46061 , mail : INFO@ZABALOBROKERS.COM.ARAR, mensaje:  Invalid Addresses;
+  nested exception is:
+	class com.sun.mail.smtp.SMTPAddressFailedException: 511 sorry, can't find a valid MX for rcpt domain (#5.1.1 - chkuser)
+
+* (*a) La encuesta del usuario: 28266 ya fue enviada a esta direccion de mail  : SANCHEZ_PAGANINI@CIUDAD.COM.AR (Usuario : 28096 )
+* Encuesta enviada 2011/07/12 14:34:07 , al Usuario : 28282 Mail : ORGERENU@ARNET.COM.AR
+* Encuesta enviada 2011/07/12 14:34:08 , al Usuario : 28291 Mail : ERNESTODELASNAVAS@ARNETBIZ.COM.AR
+* Encuesta enviada 2011/07/12 14:34:09 , al Usuario : 28479 Mail : COBRANZASGONCALVES@HOTMAIL.COM
+* Encuesta enviada 2011/07/12 14:34:10 , al Usuario : 42218 Mail : GAGARCIASEGUROS@CIUDAD.COM.AR
+* Encuesta enviada 2011/07/12 14:34:11 , al Usuario : 42633 Mail : SA_SEGUROS@YAHOO.COM.AR
+* Encuesta enviada 2011/07/12 14:34:13 , al Usuario : 42978 Mail : LABIUNDA@AOL.COM
+* Encuesta enviada 2011/07/12 14:34:14 , al Usuario : 43796 Mail : ROBERTAGUAZZOLINI@YAHOO.COM.AR
+* Encuesta enviada 2011/07/12 14:34:15 , al Usuario : 44181 Mail : NESTORPIANELLI@YAHOO.COM.AR
+* Encuesta enviada 2011/07/12 14:34:16 , al Usuario : 45926 Mail : CONSULTORAACERVO@YAHOO.COM.AR
+* Encuesta enviada 2011/07/12 14:34:18 , al Usuario : 28525 Mail : HECTOR.MACKEPRANG@HGM.COM.AR
+* Encuesta enviada 2011/07/12 14:34:19 , al Usuario : 28568 Mail : EDGARFIGUERES@ARNET.COM.AR
+* Encuesta enviada 2011/07/12 14:34:20 , al Usuario : 28576 Mail : FRIASSEGUROS@CIUDAD.COM.AR
+* Encuesta enviada 2011/07/12 14:34:21 , al Usuario : 28584 Mail : ALBERTO@GRUPOCUENCASRL.COM.AR
+* (*a) La encuesta del usuario: 28631 ya fue enviada a esta direccion de mail  : LUNAJULIO@TUTOPIA.COM (Usuario : 38024 )
+* Encuesta enviada 2011/07/12 14:34:22 , al Usuario : 28657 Mail : NORBERTOMILANO@YAHOO.COM.AR
+* Encuesta enviada 2011/07/12 14:34:25 , al Usuario : 28681 Mail : IDAFURLANITTO@DAT1.NET.AR
+* Encuesta enviada 2011/07/12 14:34:26 , al Usuario : 36137 Mail : MUTUALMERCADOSDEROSARIO@HOTMAIL.COM
+* Encuesta enviada 2011/07/12 14:34:27 , al Usuario : 28690 Mail : RENTERIASEGUROS@ARNET.COM.AR
+* Encuesta enviada 2011/07/12 14:34:28 , al Usuario : 28711 Mail : MARCELOGESSAGA@KNETT.COM.AR
+* Encuesta enviada 2011/07/12 14:34:29 , al Usuario : 28827 Mail : GALARZADORA@GMAIL.COM
+* Encuesta enviada 2011/07/12 14:34:30 , al Usuario : 28835 Mail : DOMINGUEZSEGUROS@SPEEDY.COM.AR
+* Encuesta enviada 2011/07/12 14:34:31 , al Usuario : 28860 Mail : GESSAGA@KNETT.COM.AR
+* Encuesta enviada 2011/07/12 14:34:33 , al Usuario : 28878 Mail : ROCIO@GARROTEYASOCIADOS.COM.AR
+* Encuesta enviada 2011/07/12 14:34:34 , al Usuario : 28924 Mail : VICTOR_FRONTERA@HOTMAIL.COM
+* (*a) La encuesta del usuario: 28959 ya fue enviada a esta direccion de mail  : IDAFURLANITTO@DAT1.NET.AR (Usuario : 28681 )
+* Encuesta enviada 2011/07/12 14:34:35 , al Usuario : 28983 Mail : ORGPOLESCHI@HOTMAIL.COM
+* Encuesta enviada 2011/07/12 14:34:36 , al Usuario : 28991 Mail : ROSANA@TRUEBASEGUROS.COM.AR
+* Encuesta enviada 2011/07/12 14:34:38 , al Usuario : 29009 Mail : SALVATTOSEGUROS@YAHOO.COM.AR
+* Encuesta enviada 2011/07/12 14:34:39 , al Usuario : 29017 Mail : CAPPELLETTISEGUROS@ACERCA.COM.AR
+* Encuesta enviada 2011/07/12 14:34:41 , al Usuario : 37559 Mail : JL.SANDOBAL@INTERBAS.NET
+* Encuesta enviada 2011/07/12 14:34:42 , al Usuario : 42595 Mail : RASNEA@GIGARED.COM
+* Encuesta enviada 2011/07/12 14:34:43 , al Usuario : 44270 Mail : DARIO_G63@YAHOO.COM.AR
+(*2) Error En el Envio Mail. Usuario : 44466 , mail : JLSANDOBAL@INTERBARNET.COM.AR, mensaje:  Invalid Addresses;
+  nested exception is:
+	class com.sun.mail.smtp.SMTPAddressFailedException: 511 sorry, can't find a valid MX for rcpt domain (#5.1.1 - chkuser)
+
+* Encuesta enviada 2011/07/12 14:34:46 , al Usuario : 29068 Mail : LEANDROADIAZ@DAT13.COM.AR
+* Encuesta enviada 2011/07/12 14:34:47 , al Usuario : 29092 Mail : MBIONDI@ARNETBIZ.COM.AR
+* Encuesta enviada 2011/07/12 14:34:48 , al Usuario : 29131 Mail : MIGUEL_PACIULLO@FULLRISK.COM.AR
+* (*a) La encuesta del usuario: 43761 ya fue enviada a esta direccion de mail  : JUANPABLOAGA@CONSULTINGRISK.COM.AR (Usuario : 27464 )
+* Encuesta enviada 2011/07/12 14:34:49 , al Usuario : 37460 Mail : ICASEGUROSLOMAS@HOTMAIL.COM
+
+* --------------------------------------------------------------------------------- 
+* Cantida Avisos de Encuesta : 222
+* Encuestas Enviadas : 177
+* ---------------------------------------------------------------------------------
+* (*a) Direcciones de mail repetidas (no enviadas) : 28
+* (*1) Error Encuestas  - Grabar Archivo de Control  : 0
+* (*2) Error Encuestas  - Enviar Mail  : 17

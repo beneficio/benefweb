@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document [
+<!ENTITY nbsp '&#160;'>
+<!ENTITY aacute '&#225;'>
+<!ENTITY eacute '&#233;'>
+<!ENTITY iacute '&#237;'>
+<!ENTITY oacute '&#243;'>
+<!ENTITY uacute '&#250;'>
+<!ENTITY ntilde '&#241;'>
+<!ENTITY Ntilde '&#209;'>
+<!ENTITY Ntilde '&#195;'>
+<!ENTITY Aacute '&#193;'>
+<!ENTITY Eacute '&#201;'>
+<!ENTITY Iacute '&#205;'>
+<!ENTITY Oacute '&#211;'>
+<!ENTITY Uacute '&#218;'>   
+]>    
+<document deny-modify='true' margin-left='0.5cm' margin-right='0.5cm' margin-top='0.2cm' margin-bottom='0.5cm' border-width-all='0.05' border-color-all='#707070'>
+    <style name='.ItemNameNormal' font-name='helvetica' font-size='10' vertical-align='top'/>
+    <style name='.ItemNameBold' font-name='helvetica-bold' font-size='10' vertical-align='top'/>
+    <style name='.ItemValueNormal' font-name='helvetica' font-size='10' vertical-align='top'/>
+    <style name='.ItemTextoVar' font-name='helvetica' font-size='10' vertical-align='top' align='left'/>
+    <style name='.ItemValueBold' font-name='helvetica-bold' font-size='10' vertical-align='top'/>
+    <style name='.ItemTitulo' font-name='helvetica-bold' font-size='11' vertical-align='middle'  fill-color='#C0C0C0'/>
+    <style name='.ItemSubTitulo' font-name='helvetica-bold' font-size='8' vertical-align='top'  fill-color='#E0E0E0'/>
+    <style name='.ItemCob' font-name='helvetica' font-size='8' align='center' vertical-align='top' />
+    <style name='.ItemCobL' font-name='helvetica' font-size='8' align='left' vertical-align='top'/>
+    <style name='.ItemCobLBold' font-name='helvetica-bold' font-size='8' align='left' vertical-align='top'/>
+    <style name='.ItemCobR' font-name='helvetica'  font-size='8' align='right' vertical-align='top'/>
+    <style name='.ItemFormaPago' font-name='helvetica'  font-size='10' align='left' vertical-align='top'/>
+    <style name='.ItemValueChico' font-name='helvetica-bold' font-size='7' align='center' vertical-align='top'/>
+    <images>
+      <merge source-element-name='imagenes'/>
+    </images>
+
+
+    <page-header indent-left='0' indent-right='0'>
+        <row>
+            <cell>
+                <table  widths='40%,60%' border-width-all='0' padding-all='2'>
+                    <row>
+                        <cell align='left'><show-image image-name='logo' scale-width='150' scale-height='53'/></cell>
+                        <cell class='ItemNameBold' align='left' vertical-align='middle'>PRELIQUIDACION WEB</cell>
+                    </row>
+                    <row>
+                        <cell class='ItemNameBold' align='left' vertical-align='middle' scale-height='25'>Preliquidaci&oacute;n Nº:&nbsp;<merge source-element-name='NUM_PRELIQ'/></cell>
+                        <cell class='ItemNameBold' align='left' vertical-align='middle'>Productor:&nbsp;<merge source-element-name='COD_PROD_DESC'/>&nbsp;(<merge source-element-name='COD_ORG'/>.<merge source-element-name='COD_PROD'/>)</cell>
+                    </row>
+                    <row>
+                        <cell class='ItemNameBold' align='left' vertical-align='middle' scale-height='35'>RENDICION DE COBRANZAS&nbsp;&nbsp;</cell>
+                        <cell class='ItemNameBold' align='left' vertical-align='middle'>ESTADO:&nbsp;<merge source-element-name='DESC_ESTADO'/></cell>
+                    </row>
+                </table>
+             </cell>
+        </row>
+        <row>
+            <cell>
+<!--                <table widths='0.5cm,2.2cm,0.5cm,4.2cm,1.7cm,1.7cm,1.8cm,1.8cm,1.8cm,1.6cm,1.7cm' -->
+                <table widths='0.5cm,2.2cm,0.5cm,4.2cm,1.7cm,1.7cm,1.8cm,1.8cm,1.6cm,1.7cm'
+                       border-width-all='0.05'
+                       border-color-all='#707070'
+                       keep-with-next='false'
+                       keep-together='false'>
+                    <row>
+                        <cell align='center' class='ItemSubTitulo'>Sc</cell>
+                        <cell align='center' class='ItemSubTitulo'>Poliza/Endoso</cell>
+                        <cell align='center' class='ItemSubTitulo'>Cu</cell>
+                        <cell align='center' class='ItemSubTitulo'>Asegurado</cell>
+                        <cell align='center' class='ItemSubTitulo'>Venc.Aseg</cell>
+                        <cell align='center' class='ItemSubTitulo'>Venc.Prod</cell>
+<!--                        <cell align='center' class='ItemSubTitulo'>Prima</cell>
+-->
+                        <cell align='center' class='ItemSubTitulo'>Premio.Mon</cell>
+                        <cell align='center' class='ItemSubTitulo'>Premio $</cell>
+                        <cell align='center' class='ItemSubTitulo'>Estado</cell>
+                        <cell align='center' class='ItemSubTitulo'>Fec.Cobro</cell>
+                    </row>
+                 </table>
+            </cell>
+        </row>
+    </page-header>
+    <page-footer indent-left='0' indent-right='0'  width='100%'>
+        <row>
+            <cell></cell>
+        </row>
+        <row>
+            <cell align='left' font-name='helvetica' font-size='7' text-color='blue' border-width-top='0.01' >
+                <link url='http://www.beneficioweb.com.ar'>www.beneficioweb.com.ar</link>
+            </cell>
+            <cell align='center' font-name='helvetica' font-size='7' border-width-top='0.01' >
+                BENEFICIO S.A.
+            </cell>
+            <cell border-width-top='0.01' align='right' font-size='7' font-name='helvetica'>
+                Pagina <page-number/> de <forward-reference name='total-pages'/>
+            </cell>
+        </row>
+        
+    </page-footer>
+        <table  widths='0.5cm,2.2cm,0.5cm,4.2cm,1.7cm,1.7cm,1.8cm,1.8cm,1.6cm,1.7cm'
+            padding-all='2' border-width-all='0.02'>
+        <merge source-element-name='TABLA_PRELIQUIDACIONES'/>
+    </table>
+    <table  widths='4.3cm,5.5cm' padding-all='2' border-width-all='0.00'>
+        <row>
+            <cell>&nbsp;</cell>
+        </row>
+        <row>
+            <cell class='ItemNameBold'>TOTALES COBRADOS:</cell>
+        </row>
+        <merge source-element-name='TABLA_TOTALES'/>
+    </table>
+    <table  widths='15%,85%' padding-all='4' border-width-all='0.00'>
+        <row>
+            <cell class='ItemCobLBold' colspan='2'>Información necesaria para rendir la preliquidación desde cualquier sucursal del Banco Macro:&nbsp;</cell>
+        </row>
+        <row>
+            <cell class='ItemCobL'>Convenio:&nbsp;</cell>
+            <cell class='ItemCobLBold'>69714 – BENEFICIO SA PRODUCTORES</cell>            
+        </row>
+        <row>
+            <cell class='ItemCobL'>Dni/Cuit:&nbsp;</cell>
+            <cell class='ItemCobLBold'><merge source-element-name='NUM_DOC'/></cell>
+        </row>
+    </table>
+</document>

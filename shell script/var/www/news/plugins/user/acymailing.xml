@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="user">
+	<name>User - AcyMailing</name>
+	<creationDate>September 2009</creationDate>
+	<version>1.1.1</version>
+	<author>Acyba</author>
+	<authorEmail>dev@acyba.com</authorEmail>
+	<authorUrl>http://www.acyba.com</authorUrl>
+	<copyright>Copyright (C) 2009 ACYBA SARL - All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<description>AcyMailing User plugin to automatically synchronise the Joomla Users and the AcyMailing ones</description>
+	<files>
+		<filename plugin="acymailing">acymailing.php</filename>
+	</files>
+	<params addpath="/components/com_acymailing/params">
+		<param name="help" type="help" label="Help" description="Click on the help button to get some help" default="plugin-user"/>
+		<param name="lists" type="lists" default="None" label="Subscribe the user to" description="While a registered user is inserted in Joomla, AcyMailing will also save this user and subscribe him to the selected lists" />
+	</params>
+</install>

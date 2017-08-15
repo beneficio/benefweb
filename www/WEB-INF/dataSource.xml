@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:jee="http://www.springframework.org/schema/jee"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+            http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee-3.0.xsd">
+
+
+	<!-- <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+		<property name="driverClassName" value="oracle.jdbc.OracleDriver" />
+		<property name="url" value="jdbc:oracle:thin:@siegt.tca.aero:1522:siegt" /> 
+		<property name="username" value="ws_afip" />
+		<property name="password" value="ws_afip" />
+	</bean>-->
+	
+	
+	<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+		<property name="driverClassName" value="org.postgresql.Driver" />
+		<property name="url" value="jdbc:postgresql://192.168.2.178:5432/BENEF" />
+		<property name="username" value="postgres" />
+		<property name="password" value="pino3916" />
+	</bean>
+	
+	
+	 <!-- JNDI DataSource for J2EE environments -->
+     <!-- <jee:jndi-lookup id="dataSource" jndi-name="jdbc/bsbDS"/> -->  
+	
+	
+	 <!-- 
+	<bean id="dataSource" class="org.springframework.jndi.JndiObjectFactoryBean" destroy-method="close">
+		<property name="jndiName" value="jdbc/bsbDS" />
+	</bean> 
+	 -->
+
+</beans>
+

@@ -1,0 +1,65 @@
+sistemas@beneficiosa.com.ar&&relisii@beneficiosa.com.ar&&null&&null&&PROPUESTA VIDA COLECTIVO  - N° 522245&&AVISO DE ENVIO DE PROPUESTA DE VIDA COLECTIVO  - N 522245
+---------------------------------------
+
+NUM PROPUESTA: 522245
+ENVIADA POR  : ELISII ROLANDO
+PRODUCTOR    : PRUEBA    (31038)
+NUM COTIZACION: 0
+FECHA        : 10/12/2013, 10:48
+ 
+Tomador           : PRUEBA 2 DE  PINO
+DNI               : DNI 22697589
+Domicilio         : CALLE 9 MANUEL B. GONNET (1897) - Capital Federal
+Ambito            : null
+Como enviar póliza: No desea recibir la póliza
+Descripción Tareas: null
+Cond I.V.A        : Consumidor Final
+ 
+Características del seguro
+-------------------------- 
+Vigencia            : Anual, desde 01/12/2013 hasta 30/11/2014
+Facturación         : Mensual
+Cantidad de Vidas   : 3
+ 
+Descripcion de Coberturas
+-------------------------
+Muerte por accidente                   $            .00
+Invalidez permanente total y/o parcial $            .00
+Asistencia medica farmaceutica         $            .00
+Franquicia                             $            .00
+ 
+Presupuesto
+-----------
+Prima pura          $            .00
+Sub-Total           $            .00
+Subtotal            $            .00
+ GDA            20.00%  $        .00
+Recargos finan.   .00%  $        .00
+Derecho de Emision  $            .00
+Prima Tarifa        $            .00
+ Ajustes opciones: no ajusta.
+ Ajustes opcionales: no ajusta.
+ IVA    .00%        $            .00
+ Tasa SSN    .00%   $            .00
+ Serv.Soc    .00%   $            .00
+ Sellado     .00%   $            .00
+Premio              $         480.00
+Forma de Pago:
+DEBITO BANCARIO (CONVENIO) /SOBRE, 1 cuotas de $.00
+EMPRESA:40.
+CUENTA:0123456789012548.
+CONVENIO:12345.
+
+Beneficiarios herederos legales:N
+Beneficiarios Tomador          :N
+Clausula de No Repetición      :N
+Clausula de Subrogación        :N
+ 
+Nómina de asegurados 
+-------------------- 
+  - PRUEBA 2 DE  PINO DNI: 22697589 - F. Nac: 12/12/1978
+  - CONYUGE DNI: 22657839 - F. Nac: 06/06/1977
+  - HIJO UNO  DNI: 22564879 - F. Nac: 01/02/1977
+ 
+Este es un mensaje automático generado por BENEFICIO WEB.
+Cualquier duda o consulta puede comunicarse por este medio a webmaster@beneficiosa.com.ar

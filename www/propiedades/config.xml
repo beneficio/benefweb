@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<properties> 
+ <category name="general">
+    <property name="aplicacion" value="/benef/" />
+    <property name="pathManuales" value="c:\var\" />
+    <property name="pathNovedades" value="c:\var\" />
+    <property name="mailhost" value="192.168.2.169" />
+    <property name="mailport" value="25" />
+    <property name="mailuser" value="webmaster@beneficio.com.ar" />
+    <property name="mailpass" value="pino3916" />
+    <property name="mailauth" value="false" />
+    <property name="mailsource" value="webmaster@beneficio.com.ar" />
+  </category>
+  <category name="jdbc">
+    <property name="driver" value="org.postgresql.Driver" />
+    <property name="base" value="BENEF" />
+<!--    <property name="urlbase" value="jdbc:postgresql://localhost:5432/"/>-->
+<!--    <property name="urlbase" value="jdbc:postgresql://192.168.2.169:5432/"/>
+     <property name="pass" value="4813916" /> -->
+    <property name="urlbase" value="jdbc:postgresql://192.168.2.178:5432/"/>
+    <property name="user" value="postgres" />
+    <property name="pass" value="pino3916" />
+<!-- clave de locahost     <property name="pass" value="pino3916" />-->
+<!-- clave de produccion   <property name="pass" value="pino3916" /> -->
+  </category>
+  <category name="phpDC">
+    <property name="url" value="http://192.168.2.171/rundc.php" />
+    <property name="cualdcrc" value="dcrc.prueba" />
+    <property name="programa" value="/divcen/bin/RUNDC GPOLPINOT" />
+    <property name="timeout" value="120000" />
+  </category>
+  <category name="bancoMacro">
+    <property name="serverAddress" value="ssta.macro.com.ar" />
+    <property name="port" value="443" />
+    <property name="userId" value="USRBENEFICIOS" />
+    <property name="password" value="e37hJe6S" />
+    <property name="remoteDirectorySend" value="EMPRESA/" />
+    <property name="remoteDirectoryRequest" value="BANCO/" />
+    <property name="localDirectory" value="/opt/tomcat/webapps/benef/files/preliq/macro/" />
+  </category>
+</properties>

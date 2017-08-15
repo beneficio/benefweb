@@ -1,0 +1,164 @@
+<data>
+    <conditions>
+        <condition name='UNICO_ASEGURADO' value='false'/>
+        <condition name='CLAUSULAS' value='false'/>
+    </conditions>
+        <source-element name='TABLA_ASEGURADOS'>
+            <row>
+                <cell class='ItemCobL'>ANDELIQUE CARLOS ENRIQUE  </cell>
+                <cell class='ItemCobR'>CUIT/L</cell>
+                <cell class='ItemCobL'>20106494739</cell>
+            </row>
+            <row>
+                <cell class='ItemCobL'>.   VIDA COLEC. OBLIGATORIO  </cell>
+                <cell class='ItemCobR'>$  12,000.00</cell>
+                <cell class='ItemCobL'> </cell>
+            </row>
+            <row>
+                <cell class='ItemCobL'>CARBALLO MAFFEIS MARTIN E. </cell>
+                <cell class='ItemCobR'>CUIT/L</cell>
+                <cell class='ItemCobL'>20342455825</cell>
+            </row>
+            <row>
+                <cell class='ItemCobL'>.   VIDA COLEC. OBLIGATORIO  </cell>
+                <cell class='ItemCobR'>$  12,000.00</cell>
+                <cell class='ItemCobL'> </cell>
+            </row>
+            <row>
+                <cell class='ItemCobL'>CARETTI JOAQUIN RUBEN  </cell>
+                <cell class='ItemCobR'>CUIT/L</cell>
+                <cell class='ItemCobL'>20325171988</cell>
+            </row>
+            <row>
+                <cell class='ItemCobL'>.   VIDA COLEC. OBLIGATORIO  </cell>
+                <cell class='ItemCobR'>$  12,000.00</cell>
+                <cell class='ItemCobL'> </cell>
+            </row>
+            <row>
+                <cell class='ItemCobL'>DI PIETRO CESAR HERNAN </cell>
+                <cell class='ItemCobR'>CUIT/L</cell>
+                <cell class='ItemCobL'>20344590215</cell>
+            </row>
+            <row>
+                <cell class='ItemCobL'>.   VIDA COLEC. OBLIGATORIO  </cell>
+                <cell class='ItemCobR'>$  12,000.00</cell>
+                <cell class='ItemCobL'> </cell>
+            </row>
+            <row>
+                <cell class='ItemCobL'>FACCIANO GUSTAVO GABRIEL  </cell>
+                <cell class='ItemCobR'>CUIT/L</cell>
+                <cell class='ItemCobL'>20235240123</cell>
+            </row>
+            <row>
+                <cell class='ItemCobL'>.   VIDA COLEC. OBLIGATORIO  </cell>
+                <cell class='ItemCobR'>$  12,000.00</cell>
+                <cell class='ItemCobL'> </cell>
+            </row>
+            <row>
+                <cell class='ItemCobL'>GASOL RODRIGO MARTIN  </cell>
+                <cell class='ItemCobR'>CUIT/L</cell>
+                <cell class='ItemCobL'>20265427244</cell>
+            </row>
+            <row>
+                <cell class='ItemCobL'>.   VIDA COLEC. OBLIGATORIO  </cell>
+                <cell class='ItemCobR'>$  12,000.00</cell>
+                <cell class='ItemCobL'> </cell>
+            </row>
+            <row>
+                <cell class='ItemCobL'>GODOY OSVALDO RENE  </cell>
+                <cell class='ItemCobR'>CUIT/L</cell>
+                <cell class='ItemCobL'>20345921118</cell>
+            </row>
+            <row>
+                <cell class='ItemCobL'>.   VIDA COLEC. OBLIGATORIO  </cell>
+                <cell class='ItemCobR'>$  12,000.00</cell>
+                <cell class='ItemCobL'> </cell>
+            </row>
+            <row>
+                <cell class='ItemCobL'>GUTIERREZ NADIA   </cell>
+                <cell class='ItemCobR'>CUIT/L</cell>
+                <cell class='ItemCobL'>27297911029</cell>
+            </row>
+            <row>
+                <cell class='ItemCobL'>.   VIDA COLEC. OBLIGATORIO  </cell>
+                <cell class='ItemCobR'>$  12,000.00</cell>
+                <cell class='ItemCobL'> </cell>
+            </row>
+            <row>
+                <cell class='ItemCobL'>INSAURALDE JULIO CESAR  </cell>
+                <cell class='ItemCobR'>CUIT/L</cell>
+                <cell class='ItemCobL'>20209577578</cell>
+            </row>
+            <row>
+                <cell class='ItemCobL'>.   VIDA COLEC. OBLIGATORIO  </cell>
+                <cell class='ItemCobR'>$  12,000.00</cell>
+                <cell class='ItemCobL'> </cell>
+            </row>
+            <row>
+                <cell class='ItemCobL'>MARIN WALTER DARIO  </cell>
+                <cell class='ItemCobR'>CUIT/L</cell>
+                <cell class='ItemCobL'>20220622852</cell>
+            </row>
+            <row>
+                <cell class='ItemCobL'>.   VIDA COLEC. OBLIGATORIO  </cell>
+                <cell class='ItemCobR'>$  12,000.00</cell>
+                <cell class='ItemCobL'> </cell>
+            </row>
+            <row>
+                <cell class='ItemCobL'>MOREIRA MANUEL   </cell>
+                <cell class='ItemCobR'>CUIT/L</cell>
+                <cell class='ItemCobL'>20182310221</cell>
+            </row>
+            <row>
+                <cell class='ItemCobL'>.   VIDA COLEC. OBLIGATORIO  </cell>
+                <cell class='ItemCobR'>$  12,000.00</cell>
+                <cell class='ItemCobL'> </cell>
+            </row>
+            <row>
+                <cell class='ItemCobL'>OJEDA HECTOR DAMIAN  </cell>
+                <cell class='ItemCobR'>CUIT/L</cell>
+                <cell class='ItemCobL'>23319636269</cell>
+            </row>
+            <row>
+                <cell class='ItemCobL'>.   VIDA COLEC. OBLIGATORIO  </cell>
+                <cell class='ItemCobR'>$  12,000.00</cell>
+                <cell class='ItemCobL'> </cell>
+            </row>
+            <row>
+                <cell class='ItemCobL'>PAFUMI GUSTAVO   </cell>
+                <cell class='ItemCobR'>CUIT/L</cell>
+                <cell class='ItemCobL'>20222178771</cell>
+            </row><row><cell class='ItemCobL'>.   VIDA COLEC. OBLIGATORIO  </cell><cell class='ItemCobR'>$  12,000.00</cell><cell class='ItemCobL'> </cell></row><row><cell class='ItemCobL'>VAZQUEZ ADRIAN   </cell><cell class='ItemCobR'>CUIT/L</cell><cell class='ItemCobL'>23272261539</cell></row><row><cell class='ItemCobL'>.   VIDA COLEC. OBLIGATORIO  </cell><cell class='ItemCobR'>$  12,000.00</cell><cell class='ItemCobL'> </cell></row><row><cell class='ItemCobL'>VENENCIO IGNACIO JAVIER  </cell><cell class='ItemCobR'>CUIT/L</cell><cell class='ItemCobL'>20262291929</cell></row><row><cell class='ItemCobL'>.   VIDA COLEC. OBLIGATORIO  </cell><cell class='ItemCobR'>$  12,000.00</cell><cell class='ItemCobL'> </cell></row><row><cell class='ItemCobL'>ZALASAR ENRIQUE ALEJANDRO  </cell><cell class='ItemCobR'>CUIT/L</cell><cell class='ItemCobL'>20329940714</cell></row><row><cell class='ItemCobL'>.   VIDA COLEC. OBLIGATORIO  </cell><cell class='ItemCobR'>$  12,000.00</cell><cell class='ItemCobL'> </cell></row><row><cell class='ItemCobL'>ZURITA OVANDO ALAN  </cell><cell class='ItemCobR'>CUIT/L</cell><cell class='ItemCobL'>20349786754</cell></row><row><cell class='ItemCobL'>.   VIDA COLEC. OBLIGATORIO  </cell><cell class='ItemCobR'>$  12,000.00</cell><cell class='ItemCobL'> </cell></row>
+            </source-element>
+            <source-element name='TABLA_TEXTOS'>
+                <row>
+                    <cell class='ItemTextoVar'>1567/74           </cell>
+                </row>
+                <row>
+                    <cell class='ItemTextoVar'>.           </cell>
+                </row>
+            </source-element>
+            <source-element name='imagenes'>
+                <image file-name='/opt/tomcat-6.0/webapps/benef/images/logos/logo_beneficiosa.jpg' image-name='logo'/>
+                <image file-name='/opt/tomcat-6.0/webapps/benef/images/firmaBenef.jpg' image-name='firma'/>
+            </source-element>
+            <source-element name='titulo'>Certificado Cobertura</source-element>
+            <source-element name='formulario'>CERT001</source-element>
+            <source-element name='fecha'>28/12/2010</source-element>
+            <source-element name='usuario'>PINO</source-element>
+            <source-element name='contextPath'>http://www.beneficiosa.com.ar</source-element>
+            <source-element name='subtitulo'>CERTIFICADO DE COBERTURA  </source-element>
+            <source-element name='C_NUM_POLIZA'>57676  </source-element>
+            <source-element name='C_RAMA'>VIDA OBLIGATOR.   </source-element>
+            <source-element name='C_PRESENTAR'>PRESENTAR  </source-element>
+            <source-element name='C_CLA_NO_REPETICION'>   </source-element>
+            <source-element name='C_CLA_SUBROGACION'>   </source-element>
+            <source-element name='C_DIAS'>15  </source-element>
+            <source-element name='T_TOMADOR'>DIESEL BROWN S.R.L.     </source-element>
+            <source-element name='T_CUIT'>30708851392  </source-element>
+            <source-element name='T_DOMICILIO'>V. LOPEZ 1248   </source-element>
+            <source-element name='T_LOCALIDAD'>AVELLANEDA    - (1870) - Buenos Aires  </source-element>
+            <source-element name='C_FECHA_VIG_HASTA'>28/03/2011  </source-element>
+            <source-element name='C_SUB_RAMA'>1567/74    </source-element>
+            <source-element name='C_FECHA_TRABAJO'>28/12/2010  </source-element>
+        </data>

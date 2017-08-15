@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>   
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="/benef/js_paises/vendor/modernizr-2.6.2.min.js"></script>
+        <script src="/benef/js_paises/vendor/jquery-1.10.1.min.js"></script>
+        <script src="/benef/js_paises/main.js"></script>
+        <script>
+			$(function() {
+				// Esto será ejecutado luego de cargarse la página.
+				cargarPaises();
+			});
+
+			function cargarPaises() {
+				// Elimino los datos actuales de los combos.
+				$('#paises option').remove();
+				$('#provincias option').remove();
+				$('#ciudades option').remove();
+				
+				// Hacemos un request AJAX para pedir los datos de paises.
+				// Esperamos recibir la respuesta en formato JSON.
+				var url = "rest/ejemplo/paises";
+				$.getJSON(url, function(data){
+					// Este es el handler que se ejecutara al recibirse la respuesta, si hay éxito.
+
+					// Cargo los nuevos datos para el combo de paises:
+					$("<option value=''>--seleccione--</option>").appendTo("#paises");
+					// Recorro los datos recibidos, que es un array de paises.
+					$(data).each(function(index, pais) {
+						// Agrego una opcion al select, por cada pais.
+						$("<option value='" + pais.id + "'>" + pais.nombre + "</option>").appendTo("#paises");
+					});
+				});
+			}
+
+			function cargarProvincias() {
+				// Elimino los datos actuales de los combos.
+				$('#provincias option').remove();
+				$('#ciudades option').remove();
+
+				// Obtenemos el pais seleccionado actualmente.
+				var pais = $('#paises').val();
+				if (pais == null || pais == '')
+					return;
+				
+				// Hacemos un request AJAX para pedir los datos de provincias.
+				// Esperamos recibir la respuesta en formato JSON.
+				var url = "rest/ejemplo/provincias/?pais="+pais;
+				$.getJSON(url, function(data){
+					// Este es el handler que se ejecutara al recibirse la respuesta, si hay éxito.
+					
+					// Cargo los nuevos datos para el combo de provincias:
+					$("<option value=''>--seleccione--</option>").appendTo("#provincias");
+					// Recorro los datos recibidos, que es un array de provincias.
+					$(data).each(function(index, prov) {
+						// Agrego una opcion al select, por cada provincia.
+						$("<option value='" + prov.id + "'>" + prov.nombre + "</option>").appendTo("#provincias");
+					});
+				});
+			}
+			
+			function cargarCiudades() {
+				// Elimino los datos actuales de los combos.
+				$('#ciudades option').remove();
+
+				// Obtenemos el pais seleccionado actualmente.
+				var pais = $('#paises').val();
+				if (pais == null || pais == '')
+					return;
+				
+				// Obtenemos la provincia seleccionada actualmente.
+				var prov = $('#provincias').val();
+				if (prov == null || prov == '')
+					return;
+				
+				// Hacemos un request AJAX para pedir los datos de ciudades.
+				// Esperamos recibir la respuesta en formato JSON.
+				var url = "rest/ejemplo/ciudades/?pais="+pais + '&prov='+prov;
+				$.getJSON(url, function(data){
+					// Este es el handler que se ejecutara al recibirse la respuesta, si hay éxito.
+					
+					// Cargo los nuevos datos para el combo de ciudades:
+					$("<option value=''>--seleccione--</option>").appendTo("#ciudades");
+					// Recorro los datos recibidos, que es un array de ciudades.
+					$(data).each(function(index, ciudad) {
+						// Agrego una opcion al select, por cada ciudad.
+						$("<option value='" + ciudad.id + "'>" + ciudad.nombre + "</option>").appendTo("#ciudades");
+					});
+				});
+			}
+
+		</script>
+    </head>
+    <body>
+        <p>Ejemplos de llamados REST</p>
+        
+        <a href="http://localhost:8084/benef/rest/ejemplo/hola/pepe" target="_blank">http://localhost:8084/benef/Paises/rest/ejemplo/hola/pepe</a><br/>
+        <a href="http://localhost:8084/benef/rest/ejemplo/hola2/pepe" target="_blank">http://localhost:8084/benef/Paises/rest/ejemplo/hola2/pepe</a><br/>
+        <a href="http://localhost:8084/benef/rest/ejemplo/paises" target="_blank">http://localhost:8084/benef/Paises/rest/ejemplo/paises</a><br/>
+        <a href="http://localhost:8084/benef/rest/ejemplo/provincias?pais=2" target="_blank">http://localhost:8084/benef/Paises/rest/ejemplo/provincias?pais=2</a><br/>
+        <a href="http://localhost:8084/benef/rest/ejemplo/ciudades?pais=0&prov=1" target="_blank">http://localhost:8084/benef/Paises/rest/ejemplo/ciudades?pais=0&prov=1</a><br/>
+        
+        <br/>
+        <form>
+	        Elija un pais: <select id="paises" onchange="cargarProvincias();"></select><br/>
+	        Elija una provincia: <select id="provincias" onchange="cargarCiudades();"></select><br/>
+	        Elija una ciudad: <select id="ciudades"></select><br/>
+        </form>
+    </body>
+</html>

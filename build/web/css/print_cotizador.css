@@ -1,0 +1,335 @@
+* {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow:none !important;
+        text-shadow: none !important;
+}
+
+body {
+   font-size: 9pt;
+   font-family:Arial, Helvetica, sans-serif;
+   line-height:1.4em;
+   position:relative;
+}
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+		display:none;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h1,
+	h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h1,
+	h2,
+    h3 {
+        page-break-after: avoid;
+    }
+
+	h3{ font-size:13pt; margin:0; padding:0 0 10px 0;}
+	h4{ font-size:10pt; margin:0; padding:0 0 20px 0;}
+	h5{ font-size:9pt; margin:0;}
+
+	ul, ol{
+	margin:0 0 0 15px; padding:0;
+	}
+
+.header, .header img, .header .user-info, .header *, .menu, ul.tabs, .options, .button-container, .cot-wrap, .bottom,
+.mail-overlay, .mail-wrapp, .mail-form, .mail-overlay div, .mail-overlay *, .button-container button, .button-container input,
+.pdf-overlay, .pdf-overlay div, .pdf-overlay input, .no-imprimir, table.no-imprimir{
+		display:none;
+}
+
+h1.title-section {
+ font-size:13pt;
+ margin:10px 0 0 0;
+ padding:0 0 20px 0;
+ text-transform:capitalize;
+ float:right;
+ display:inline-block;
+ width:auto; height:auto;
+}
+
+.tab-content{
+	width:100%; height:auto;
+	margin:20px 0 0 0; padding:10px 0 0 0;
+	display:block; float:left;
+	border-top: 1px dotted #333;
+	position:relative;
+}
+
+.form-wrap{
+	float:left; display:block;
+	width:100%; height:auto; min-height:250px;
+	margin:0; padding:0;
+}
+
+.form-file{
+	float:left; display:block;
+	width:100%; height:auto;
+	margin:0; padding:0;
+}
+
+.form label{
+	float:left; display:block;
+	width:100%; height:auto;
+	margin:0; padding:0;
+	font-weight:bold;
+	line-height:40px;
+}
+
+.wrap-elements{
+	float:left; display:inline-block;
+	width:auto; height:auto;
+	margin:0; padding:0 1% 0 0;
+}
+
+.wrap-elements span, .leyend {
+	float: left;
+	display: block;
+	min-width: 50px;
+	width: 100%;
+	height: auto;
+	min-height: 20px;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	font-weight:bold;
+	color: #333;
+	line-height: 30px;
+}
+
+.wrap-elements span.item {
+	color: #666;
+}
+
+.wrap-elements span.item-result{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 100%;
+	max-width:95%;
+}
+
+.wrap-elements span.item-ma{
+	width:100%;
+	white-space:nowrap;
+}
+
+.block_print .wrap-elements{
+	width:100%;
+}
+
+.block_print .w35{
+	width:40%;
+}
+
+.block_print .w15{
+	width:25%;
+}
+
+
+.w10{
+	width:9%;
+}
+.w15{
+	width:14%;
+}
+.w20{
+	width:19%;
+}
+.w25{
+	width:24%;
+}
+.w30{
+	width:29%;
+}
+.w35{
+	width:34%;
+}
+.w40{
+	width:39%;
+}
+.w45{
+	width:44%;
+}
+.w50{
+	width:49%;
+}
+.w60{
+	width:59%;
+}
+.w70{
+	width:69%;
+}
+
+.w85{
+	width:84%;
+}
+
+.form input[type=text]{
+	border: none;
+    background: transparent;
+}
+
+.form .center input[type=text]{
+	float:none;
+	margin:0 auto;
+	display:block;
+}
+
+.form .cot1, .form .cot2{
+	margin:0;
+	padding:0;
+}
+
+.form .cot1 input[type=text],
+.form .cot2 input[type=text]{
+	width:100%;
+	float:left;
+	display:inline-block;
+	line-height:25px;
+	text-align:left;
+}
+
+.form .cot1{
+	padding-top:10px;
+	margin-top:10px;
+	border-top:1px solid silver;
+}
+
+.cot1 label, .cot2 label{
+	line-height:20px;
+}
+
+
+/* table estyles ******************/
+
+#table-results{
+	float:left; display:block;
+	background: #fff;
+	margin:30px 0;
+	width: 100%;
+	border-collapse: collapse;
+	text-align: left;
+}
+
+
+#table-results thead,
+#table-results tr, #table-results tbody{
+	float:left;
+	display:block;
+	width:100%;
+}
+
+#table-results th{
+	float:left; display:inline-block;
+	font-weight: bold;
+	padding: 15px 1%;
+	border-bottom: 1px solid #444;
+	text-align:left;
+}
+
+#table-results td{
+	float:left; display:inline-block;
+	border-bottom: 1px solid #dddddd;
+	padding: 10px 1%;
+}
+
+.bnf_logo_print{
+	float:left; display:inline-block;
+	width:auto; height:auto;
+	margin:0; padding:0;
+	-ms-interpolation-mode:bicubic;
+	border:none;
+}
+
+.bottom_print{
+	position: fixed;
+	bottom:20px; left:0;
+	width:700px; height:auto;
+}
+
+.bottom_print span{
+	display:inline-block;
+}
+
+.bottom_print span.text_leyend{
+	position: absolute;
+        vertical-align: top;        
+	bottom: 30px;
+	float:left;
+	width:85%; 
+        height:30px;
+	margin:0; padding:0;
+	line-height:30px;
+}
+.bottom_print span.text_leyend2{
+	position: absolute;
+        vertical-align: bottom;        
+	bottom: 30px;
+	float:left;
+	width:85%; 
+//        height:200px;
+	margin:0; padding:0;
+	line-height:30px;
+}
+
+.bottom_print .firma{
+	float:right; display: inline-block;
+	width:133px; height:188px;
+	margin:0; padding:0;
+	text-align:bottom;
+}
+
+.bnf_firma_print{
+	display:block;
+	width:100%; height:auto;
+	margin:0; padding:0;
+	-ms-interpolation-mode:bicubic;
+	border:none;
+}

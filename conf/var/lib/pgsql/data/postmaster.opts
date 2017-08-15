@@ -1,0 +1,1 @@
+/usr/bin/postmaster '-p' '5432' '-D' '/var/lib/pgsql/data'

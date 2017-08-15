@@ -1,0 +1,97 @@
+* {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow:none !important;
+        text-shadow: none !important;
+}
+
+body {
+   font-size: 9pt;
+   font-family:Arial, Helvetica, sans-serif;
+   line-height:1.4em;
+   position:relative;
+}
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+		display:none;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+	
+	h3{ font-size:16pt; margin:0; padding:0 0 10px 0;}
+	h4{ font-size:13pt; margin:0; padding:0 0 20px 0;}
+	h5{ font-size:11pt; margin:0;}
+	
+	ul, ol{
+	margin:0 0 0 15px; padding:0;	
+	}
+	
+	header, nav, footer, header *, nav *, footer *, aside, div.action-bar, .h-page, .five, #product-detail figure,
+	.info-prod span.top, .info-prod span.ic, nav ul, header div, ul.nav, .personas, .caucion, .institucional, .accesos-l, .vcard, div.extras, div.extras *, h1 a,
+	p.chromeframe{
+		display:none;	
+	}
+	
+	.container .eleven.columns, #product-detail{
+		width:100%;	
+	}
+	
+	.info-prod, .info-prod div, .info-prod span{
+		width:100%; height:auto;
+		margin:0;	
+	}
+	
+	.info-prod{
+		margin-top:50px;
+		padding-top:25px;
+		border-top:1px solid black;
+	}

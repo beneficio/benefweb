@@ -1,0 +1,192 @@
+.TablasAlerta {
+        border-style : solid;
+        border-width : 1px; 
+        border-color : #668888;
+        margin-top : 10px;
+        margin-bottom : 10px;
+        margin-left : 10px;
+        margin-right : 10px;
+}
+
+.Titulos {
+	text-decoration : none;
+	font-size : 12px;
+	font-weight : bold;
+}
+.TablasTit {
+	BACKGROUND-COLOR: #6699cc;
+	BORDER-BOTTOM: #3366cc 1px solid;
+	BORDER-LEFT: #3366cc 1px solid;
+	BORDER-RIGHT: #3366cc 1px solid;
+	BORDER-TOP: #3366cc 1px solid;
+}
+
+.TablasTit TD {
+	BORDER-BOTTOM:#33cccc 0px solid;
+	BORDER-LEFT: #33ccee 1px solid;
+	BORDER-RIGHT: #3366cc 1px solid;
+	BORDER-TOP: #3366cc 0px solid;
+	CURSOR: default;
+	FONT-FAMILY: Verdana, 'MS Sans Serif';
+	FONT-SIZE: 8pt; 
+    COLOR: #000000 ; 
+	FONT-WEIGHT: normal;
+	HEIGHT: 20px;
+	PADDING-LEFT: 1px;
+	PADDING-RIGHT: 1px;
+	TEXT-ALIGN: Center;
+}
+
+.TablasBottom {
+	BACKGROUND-COLOR: #6699cc;
+	BORDER-BOTTOM: #3366cc 1px solid;
+	BORDER-LEFT: #3366cc 1px solid;
+	BORDER-RIGHT: #3366cc 0px solid;
+	BORDER-TOP: #3366cc 1px solid;
+}
+
+.TablasBottom TD {
+	BORDER-BOTTOM: none;
+	BORDER-LEFT: #33ccee 1px solid;
+	BORDER-RIGHT: #3366cc 1px solid;
+	BORDER-TOP: none;
+	CURSOR: default;
+	FONT-FAMILY: Verdana, 'MS Sans Serif';
+	FONT-SIZE: 8pt; 
+	FONT-WEIGHT: normal;
+	HEIGHT: 15px;
+	PADDING-LEFT: 1px;
+	PADDING-RIGHT: 1px;
+}
+.TablasBody {
+	BACKGROUND-COLOR:  #ffffff;
+	BORDER-BOTTOM: #00CCFF 1px solid;
+	BORDER-LEFT: #00CCFF 1px solid;;
+	BORDER-RIGHT: #00CCFF 1px solid;;
+	BORDER-TOP: #00CCFF 1px solid;	
+
+
+
+}
+.TablasBody TD {
+
+	BORDER-RIGHT: #00CCFF  1px solid;
+	BORDER-BOTTOM: #00CCFF  1px;
+	BORDER-LEFT: #00CCFF  1px;
+	BORDER-TOP: #00CCFF  1px solid;
+
+	FONT-FAMILY: Verdana, 'MS Sans Serif';
+	FONT-SIZE: 7pt;
+	FONT-WEIGHT: normal;
+	HEIGHT: 15px;
+	PADDING-LEFT: 1px;
+	PADDING-RIGHT: 1px
+}
+
+.TablasBody TH {
+	BACKGROUND-COLOR: #6699CC;
+	BORDER-BOTTOM: #00CCFF  1px solid;
+	BORDER-LEFT: #00CCFF  1px solid;
+	BORDER-RIGHT: #00CCFF  1px solid;
+	BORDER-TOP: #00CCFF  1px solid;
+	CURSOR: default;
+	FONT-FAMILY: Verdana, 'MS Sans Serif';
+	FONT-SIZE: 8pt; 
+        COLOR: #ffffff  ; 
+	FONT-WEIGHT: bold;
+	HEIGHT: 18px;
+	PADDING-LEFT: 1px;
+	PADDING-RIGHT: 1px;
+	TEXT-ALIGN: Center;
+}
+
+.TablasCotizacion {
+	BACKGROUND-COLOR:  #ffffff;
+	BORDER-BOTTOM: #668888 1px solid;
+	BORDER-LEFT: #668888 1px solid;;
+	BORDER-RIGHT: #668888 1px solid;;
+	BORDER-TOP: #668888 1px solid;	
+
+
+}
+.TablasCotizacion TD {
+	BORDER-BOTTOM: none;
+	BORDER-LEFT: none;
+	BORDER-RIGHT: none;
+	BORDER-TOP: none;
+	FONT-FAMILY: Verdana, 'MS Sans Serif';
+	FONT-SIZE: 7pt;
+	FONT-WEIGHT: normal;
+	HEIGHT: 15px;
+	PADDING-LEFT: 1px;
+	PADDING-RIGHT: 1px
+}
+
+.TablasCotizacion TH {
+	BACKGROUND-COLOR: #59698B;
+	BORDER-BOTTOM: #668888 1px solid;
+	BORDER-LEFT: #668888 1px solid;
+	BORDER-RIGHT: #668888 1px solid;
+	BORDER-TOP: #668888 1px solid;
+	CURSOR: default;
+	FONT-FAMILY: Verdana, 'MS Sans Serif';
+	FONT-SIZE: 8pt; 
+        COLOR: #ffffff ; 
+	FONT-WEIGHT: bold;
+	
+	PADDING-LEFT: 1px;
+	PADDING-RIGHT: 1px;
+	TEXT-ALIGN: Center;
+}
+
+.TablasOp {
+	BACKGROUND-COLOR:  #ffffff;
+	BORDER-BOTTOM: #ffffff 0px solid;
+	BORDER-LEFT: #668888 1px solid;;
+	BORDER-RIGHT: #ffffff 1px solid;;
+	BORDER-TOP: #ffffff 0px solid;	
+
+
+}
+.TablasOp TD {
+	BORDER-RIGHT: #668888 1px solid;
+	BORDER-BOTTOM: #668888 1px solid;
+	BORDER-LEFT: #ffffff 1px solid;
+	BORDER-TOP: #ffffff 1px solid;
+	FONT-FAMILY: Verdana, 'MS Sans Serif';
+	FONT-SIZE: 7pt;
+	FONT-WEIGHT: normal;
+	HEIGHT: 15px;
+	PADDING-LEFT: 1px;
+	PADDING-RIGHT: 1px
+}
+
+.TablasOP TH {
+	BACKGROUND-COLOR: #292952;
+	BORDER-BOTTOM: #668888 1px solid;
+	BORDER-LEFT: #668888 0px solid;
+	BORDER-RIGHT: #668888 1px solid;
+	BORDER-TOP: #668888 1px solid;
+	CURSOR: default;
+	FONT-FAMILY: Verdana, 'MS Sans Serif';
+	FONT-SIZE: 8pt; 
+    COLOR: #ffffff ; 
+	FONT-WEIGHT: bold;
+	HEIGHT: 18px;
+	PADDING-LEFT: 1px;
+	PADDING-RIGHT: 1px;
+	TEXT-ALIGN: Center;
+}
+
+.navtext {
+    width: 235px;
+    font-size: 8pt;
+    font-family: verdana;
+    border-width: 2px;
+    border-style: outset;
+    border-color: #006BAE;
+    layer-background-color: #FFF6D9;
+    background-color: #FFF6D9;
+    color: black;
+}
+

@@ -1,0 +1,28 @@
+a:link {  color: #336699; text-decoration: underline}
+a:visited { color: #336699; text-decoration: underline}
+a:hover { color: #7B92AD; text-decoration: underline}
+
+.menulink1:link {  color: #FFFFFF; text-decoration: none}
+.menulink1:visited { color: #FFFFFF; text-decoration: none}
+.menulink1:hover { color: #FFCC00; text-decoration: none}
+
+BODY{scrollbar-face-color:#336699;
+scrollbar-arrow-color:#FFFFFF;
+scrollbar-track-color:#7B92AD;
+scrollbar-shadow-color:'#1C1C1C';
+scrollbar-highlight-color:'#7B92AD';
+scrollbar-3dlight-color:'#1C1C1C';
+scrollbar-darkshadow-Color:'#1C1C1C';}
+
+.menu {  color: #FFFFFF; font-family: Arial; font-size: 14px; fontsize: 15px; font-weight: bold}
+
+.normal {  color: #000033; font-family: Verdana; font-size: 12px; fontsize: 13px; font-weight: none}
+
+.copyright {  color: #FFFFFF; font-family: Verdana; font-size: 11px; fontsize: 12px; font-weight: none}
+
+.fondoForm {background-color:#F4F4F4;border:solid #E6E5DD;border-width:1px 0px 1px 0px;padding: 7px 12px 7px 12px; margin-bottom:10px;height:auto;}
+.radioCheck{float:left;margin-right:12px;}
+.select{margin-top:6px;font-family: Tahoma, Arial;font-size: 11px;}
+.boton {padding:0px 3px 0px 3px;border:1px solid #999999;background:#FFF;background-image:url(/benef/images/FondoInput.gif);background-repeat:repeat-x;font:bold 11px Tahoma, Arial, Helvetica, sans-serif;color:#12477B;cursor:pointer;}
+.text {font:11px Tahoma, Arial, Helvetica, sans-serif;color:#4D4D4D;vertical-align:middle;}
+.titulo {font:14px Tahoma, Arial, Helvetica, sans-serif; font-weight: bold;color:#4D4D4D;vertical-align:middle;}

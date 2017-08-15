@@ -1,0 +1,58 @@
+webmaster@beneficiosa.com.ar&&relisii@beneficiosa.com.ar&&null&&null&&PROPUESTA SALUD   - N° 524138&&AVISO DE ENVIO DE PROPUESTA DE SALUD   - N 524138
+---------------------------------------
+
+NUM PROPUESTA: 524138
+ENVIADA POR  : ELISII ROLANDO
+PRODUCTOR    : PRUEBA    (31038)
+NUM COTIZACION: 0
+FECHA        : 21/08/2014, 15:57
+ 
+Tomador           : SDASDASDADASD ADAADADAS
+DNI               : DNI 23423423
+Domicilio         : ADADASD ASDASDASDA (1897) - Rio Negro
+Ambito            : null
+Como enviar póliza: No desea recibir la póliza
+Descripción Tareas: null
+Cond I.V.A        : Consumidor Final
+ 
+Características del seguro
+-------------------------- 
+Vigencia            : Anual, desde 22/08/2014 hasta 22/08/2015
+Facturación         : Anual
+Cantidad de Vidas   : 0
+ 
+Descripcion de Coberturas
+-------------------------
+Muerte por accidente                   $            .00
+Invalidez permanente total y/o parcial $            .00
+Asistencia medica farmaceutica         $            .00
+Franquicia                             $            .00
+ 
+Presupuesto
+-----------
+Prima pura          $            .00
+Sub-Total           $            .00
+Subtotal            $            .00
+ GDA            20.00%  $        .00
+Recargos finan.   .00%  $        .00
+Derecho de Emision  $            .00
+Prima Tarifa        $            .00
+ Ajustes opciones: no ajusta.
+ Ajustes opcionales: no ajusta.
+ IVA    .00%        $            .00
+ Tasa SSN    .00%   $            .00
+ Serv.Soc    .00%   $            .00
+ Sellado     .00%   $            .00
+Premio              $            .00
+Forma de Pago:
+CUPONES, 6 cuotas de $.00
+
+
+ 
+Nómina de asegurados 
+-------------------- 
+  - SDASDASDADASD ADAADADAS DNI: 23423423 - F. Nac: 12/12/1978
+  - SDFSDFDSFDSSD DNI: 12312212 - F. Nac: 12/12/1978
+ 
+Este es un mensaje automático generado por BENEFICIO WEB.
+Cualquier duda o consulta puede comunicarse por este medio a webmaster@beneficiosa.com.ar

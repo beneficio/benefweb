@@ -1,0 +1,170 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>BENEFICIO WEB</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="Refresh" content="0;url=http://www.beneficioweb.com.ar/portal/extranet.jsp">
+<link type="text/css" href="css/styles.css" rel="stylesheet" >
+<script type="text/javascript" language="JavaScript" src="script/formatos.js"></script>
+<script type="text/javascript" language="JavaScript">
+
+function Validar () {
+
+    document.form1.browser.value = BrowserDetect.browser;
+    document.form1.version.value = BrowserDetect.version;
+    document.form1.OS.value = BrowserDetect.OS;
+
+    if ( document.form1.browser.value != 'Explorer' && 
+         document.form1.browser.value != 'Firefox'  &&
+         document.form1.browser.value != 'Chrome' &&
+         document.form1.browser.value != 'Safari' &&
+         document.form1.browser.value != 'Mozilla' &&
+         document.form1.browser.value != 'Netscape') {
+        alert ("NAVEGADOR INVALIDO,\n\
+ Este sitio web esta optimizado para Explorer, Firefox, Chrome, Safari y Netscape. \n\
+  Su navegador es: " + document.form1.browser.value );
+        return false;
+    }
+    if (  document.form1.usuario.value == "") {
+        alert ("Debe ingresar un usuario válido ");
+        return false;
+    } 
+    if( document.form1.password.value == "") {
+        alert ("Debe ingresar una clave válida ");
+        return false;
+    }
+    if (document.form1.usuario.value != null ) {
+        document.form1.usuario.value = document.form1.usuario.value.toUpperCase();
+    }
+    if (document.form1.password.value != null ) {
+        document.form1.password.value = document.form1.password.value.toUpperCase();
+    }
+    
+    document.form1.submit ();
+    return true;
+}
+
+    function Submitir(evt) {
+
+           var nkeyCode;
+           if (document.all) {
+                 nkeyCode = evt.keyCode;
+           }else
+             if (evt) {
+                nkeyCode = evt.which;
+           }
+
+          if (nkeyCode==13) {
+            Validar ();
+          }
+    }
+
+
+</script>
+</head>
+<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<form action="/benef/servlet/setAccess" method="post" id="form1" name="form1"  onsubmit="javascript:Validar();">
+<input type="hidden" id="opcion" name="opcion" value="LOG" >
+<input type="hidden" id="browser" name="browser">
+<input type="hidden" id="version" name="version">
+<input type="hidden" id="OS" name="OS">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+    <tr> 
+        <td valign="top">
+            <table width="780" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+                <tr> 
+                    <td valign="bottom" class="anclaje"><img src="images/identidad.gif" width="277" height="27"></td>
+                    <td width="385" height="65" valign="bottom">
+                        <table width="150" border="0" align="right" cellpadding="0" cellspacing="0">
+                            <tr> 
+                                <td height="18"><div align="right"><a href="index.htm" class="link1">P&aacute;gina Principal</a></div></td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                            </tr>
+                            <tr> 
+                                <td height="18"><div align="right"><a href="registracion.htm" class="link1">Reg&iacute;strese</a></div></td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td height="18"><div align="right"><a href="ingreso_cv.htm" class="link1">Ingres&aacute; tu CV</a></div></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr> 
+                                <td height="5"></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr> 
+                    <td width="395" height="18" class="anclaje"><p>S.A. Compa&ntilde;ia de Seguros</p></td>
+                    <td width="385" valign="bottom">
+                        <div align="right"> 
+                        <table width="385" border="0" cellpadding="0" cellspacing="1">
+                            <tr> 
+                                <td class="fondo" onClick="window.location='quienes.htm'" onMouseOver="this.className='fondo2'" onMouseOut="this.className='fondo'"><div align="center">Quienes Somos</div></td>
+                                <td class="fondo" onClick="window.location='servicios.htm'" onMouseOver="this.className='fondo2'" onMouseOut="this.className='fondo'"><div align="center">Servicios</div></td>
+                                <td class="fondo" onClick="window.location='contacto.htm'" onMouseOver="this.className='fondo2'" onMouseOut="this.className='fondo'"><div align="center">Contacto</div></td>
+                            </tr>
+                        </table>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr> 
+        <td height="7" valign="top" bgcolor="#DBDBDB"></td>
+    </tr>
+    <tr> 
+        <td valign="top" bgcolor="#A7C3D1" class="fondocuadraditos">
+            <table width="780" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#E8F2F6">
+        <tr> 
+          <td colspan="2" valign="top" class="txt1">Estimado, usted ha ingresado 
+              a <strong>Beneficio Web</strong>, el sitio para productores asesores de seguros de Beneficio S.A.<br>
+            <strong>Nuestro objetivo es brindar un servicio adicional.</strong>
+          </td>
+          <td width="385" rowspan="3" valign="top" bgcolor="#C8E0EA"><div align="right"><img src="images/bebe.jpg" width="385" height="302"></div></td>
+        </tr>
+        <tr> 
+          <td width="97" valign="middle" bgcolor="#C8E0EA"><img src="images/candado.jpg" width="92" height="90"></td>
+          <td valign="middle" bgcolor="#C8E0EA"><table width="300" border="0" align="center" cellpadding="0" cellspacing="2">
+              <tr> 
+                <td width="93" height="36"><div align="right"><font color="#006699" size="2" face="Arial, Helvetica, sans-serif">Usuario:</font></div></td>
+                <td width="109" height="36"><input id="usuario" name="usuario" type="text" size="10" maxlength="14"></td>
+                <td width="94" height="36">&nbsp;</td>
+              </tr>
+              <tr> 
+                <td height="36"><div align="right"><font color="#006699" size="2" face="Arial, Helvetica, sans-serif">Password:</font></div></td>
+                <td height="36"><input id="password" name="password" type="password" size="10" maxlength="14" onkeypress="Submitir( event);"></td>
+                <td height="36"><input class="boton" name="cmdAceptar" style="width: 100px;" type="button" value="Ingresar" onClick="javascript:Validar();"></td>
+              </tr>
+            </table></td>
+        </tr> 
+        <tr> 
+          <td colspan="2" valign="top" class="txt2"><b>Se&ntilde;or
+Productor</b>, para entrar por primera vez intente ingresando como <b>usuario y password su código de
+productor.</b><br>Si tiene problemas para ingresar, <a href="registracion.htm" class="link1">haga click aqu&iacute;...</a><br>
+Si usted aún no se encuentra registrado como productor en <strong>BENEFICIO</strong>, <a href="ingreso_cv.htm" class="link1">puede hacerlo desde aqu&iacute;.</a>
+		</td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr> 
+    <td height="7" bgcolor="#DBDBDB"></td>
+  </tr>
+  <tr> 
+    <td valign="top" bgcolor="#FFFFFF"><table width="780" height="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr> 
+            <td  align="center" valign="top" class="direccion">El sitio <strong>beneficiosa.com.ar</strong> está optimizado para ser visualizado en 800x600 píxeles (formato estándar de pantalla).
+		  Recomendamos la utilización del navegador <strong>Microsoft Internet Explorer 5.5 o superior</strong>.
+		 </td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+</body>
+</html>

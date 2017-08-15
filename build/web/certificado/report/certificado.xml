@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE document [
+<!ENTITY nbsp '&#160;'>
+<!ENTITY aacute '&#225;'>
+<!ENTITY eacute '&#233;'>
+<!ENTITY iacute '&#237;'>
+<!ENTITY oacute '&#243;'>
+<!ENTITY uacute '&#250;'>
+<!ENTITY ntilde '&#241;'>
+<!ENTITY Ntilde '&#209;'>
+<!ENTITY Aacute '&#193;'>
+<!ENTITY Eacute '&#201;'>
+<!ENTITY Iacute '&#205;'>
+<!ENTITY Oacute '&#211;'>
+<!ENTITY Uacute '&#218;'>
+<!ENTITY Uuml   '&#220;'>
+]>
+<document deny-modify='true' margin-left='0.5cm' margin-right='0.5cm' margin-top='0.2cm' margin-bottom='0.3cm' border-width-all='0.05' border-color-all='#707070'>
+    <style name='.ItemNameNormal' font-name='helvetica' font-size='9' vertical-align='top'/>
+    <style name='.ItemNameBold' font-name='helvetica-bold' font-size='9' vertical-align='top'/>
+    <style name='.ItemValueNormal' font-name='helvetica' font-size='9' vertical-align='top'/>
+    <style name='.ItemTextoVar' font-name='helvetica' font-size='9' vertical-align='top' align='left'/>
+    <style name='.ItemValueBold' font-name='helvetica-bold' font-size='9' vertical-align='top'/>
+    <style name='.ItemTitulo' font-name='helvetica-bold' font-size='11' vertical-align='middle'  fill-color='#C0C0C0'/>
+    <style name='.ItemSubTitulo' font-name='helvetica-bold' font-size='10' vertical-align='top'  fill-color='#E0E0E0'/>
+    <style name='.ItemCob' font-name='helvetica' font-size='9' align='center' vertical-align='top'/>
+    <style name='.ItemCobL' font-name='helvetica' font-size='9' align='left' vertical-align='top'/>
+    <style name='.ItemCobR' font-name='helvetica' font-size='9' align='right' vertical-align='top'/>
+    <style name='.ItemValueChico' font-name='helvetica-bold' font-size='7' align='center' vertical-align='top'/>
+    <images>
+      <merge source-element-name='imagenes'/>
+    </images>
+    <page-header indent-left='0' indent-right='0'>
+        <row>
+            <cell>
+                <table  border-width-bottom='0.1' widths='30%,70%'>
+                    <row>
+                        <cell align='left'><show-image image-name='logo'/></cell>
+                        <cell align='center'>CONSTANCIA DE COBERTURA</cell>
+                    </row>
+                    <row>
+                        <cell align='left'><merge source-element-name='C_RAMA'/></cell>
+                        <cell align='right'>P&oacute;liza:&nbsp;<merge source-element-name='C_NUM_POLIZA'/></cell>
+                    </row>
+                    <row><cell min-height='5'></cell>
+                        <cell></cell>
+                    </row>
+                </table>
+            </cell>
+        </row>
+    </page-header>
+    <page-footer indent-left='0' indent-right='0'  width='100%'>
+<!--        
+        <row>
+            <cell  align='right' vertical-align='middle' min-height="110" colspan='3'>
+                <show-image image-name='firma' scale-width='90' scale-height='102'/>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </cell>
+        </row>
+-->        
+        <row>
+            <cell align='left' font-name='helvetica' font-size='8'  colspan='3'>
+En cumplimiento de lo dispuesto por la Disposición 10/08, Beneficio pone en conocimiento que:                 
+            </cell>            
+        </row>
+        <row>
+            <cell align='left' font-name='helvetica' font-size='8' colspan='3'>
+Los presentes datos son recolectados en función de la propuesta de seguros que por este se formaliza.
+El titular de los datos personales tiene la facultad de ejercer el derecho de acceso a los mismos en forma gratuita a intervalos no
+inferiores a seis meses, salvo que se acredite un interés legítimo al efecto conforme lo establecido en el art. 14, inc. 3 de la Ley Nº
+25.326. La Dirección Nacional de Protección de Datos Personales, Órgano de Control de la Ley Nº 25.326, tiene la atribución de atender
+las denuncias y reclamos que se interpongan con relación al incumplimiento de las normas sobre protección de datos personales.
+            </cell>
+        </row>
+        <row>
+            <cell align='left' font-name='helvetica' font-size='7' text-color='blue' border-width-top='0.01' >
+                <link url='http://www.beneficio.com.ar'>www.beneficio.com.ar</link>
+            </cell>
+            <cell align='center' font-name='helvetica' font-size='7' border-width-top='0.01' >
+                BENEFICIO S.A.
+            </cell>
+            <cell border-width-top='0.01' align='right' font-size='7' font-name='helvetica'>
+                Pagina <page-number/> de <forward-reference name='total-pages'/>
+            </cell>
+        </row>
+    </page-footer>
+    <table widths='100%' border-width-all='0.05' border-color-all='#707070' keep-with-next='false' keep-together='false'  padding-all='2'>
+        <row>
+            <cell>
+                <table width='100%' border-width-all='0' padding-all='2'>
+                    <if condition='SVO'>
+                    <row>
+                        <cell align='left' class='ItemNameBold' vertical-align='middle'>        
+            Se certifica, por medio de la presente, que la firma&nbsp;<merge source-element-name='T_TOMADOR'/>&nbsp;ha suscripto con BENEFICIO SA Compa&ntilde;a de Seguros la p&oacute;liza
+            más abajo mencionada, amparando lo dispuesto en las Condiciones Generales del Seguro de Vida Obligatorio, Decreto N° 1.567/74
+            del Poder Ejecutivo Nacional y sus modificatorias.
+                        </cell>
+                    </row>        
+                    </if>
+                    <row>
+                        <cell align='left' class='ItemNameNormal' vertical-align='middle' min-height="30">Para ser presentado ante <merge source-element-name='C_PRESENTAR'/></cell>
+                    </row>
+                </table>
+            </cell>
+        </row>
+        <row>
+            <cell align='center' class='ItemSubTitulo'>Datos del Asegurado y/o Tomador</cell>
+        </row>
+        <row>
+            <cell>
+                <table widths='2.2cm,12cm,2cm,*' border-width-all='0'  padding-all='2' border-color-all='#707070' indent-left='0.5cm'>
+                    <row>
+                        <cell align='left' class='ItemNameNormal' vertical-align='top'>Tomador:</cell>
+                        <cell align='left' class='ItemValueNormal'><merge source-element-name='T_TOMADOR'/></cell>
+                        <cell align='left' class='ItemNameNormal'>CUIT:</cell>
+                        <cell align='left' class='ItemValueNormal'><merge source-element-name='T_CUIT'/></cell>
+                    </row>
+                    <row>
+                        <cell align='left' class='ItemNameNormal' vertical-align='top'>Domicilio:</cell>
+                        <cell align='left' class='ItemValueNormal' colspan='3'><merge source-element-name='T_DOMICILIO'/></cell>
+                    </row>
+                    <row>
+                        <cell align='left' class='ItemNameNormal' vertical-align='top'>Localidad:</cell>
+                        <cell align='left' class='ItemValueNormal' colspan='3'><merge source-element-name='T_LOCALIDAD'/></cell>
+                    </row>
+                </table>
+            </cell>
+        </row>
+        <row>
+            <cell align='center' class='ItemSubTitulo'>Datos generales del certificado</cell>
+        </row>
+        <row>
+            <cell>
+                <table widths='3cm,*' border-width-all='0'  padding-all='2' border-color-all='#707070' indent-left='0.5cm'>
+                    <row>
+                        <cell align='left' class='ItemNameNormal' vertical-align='top'>Vigencia p&oacute;liza:</cell>
+                        <cell align='left' class='ItemValueNormal'><merge source-element-name='C_FECHA_VIG_DESDE'/>&nbsp;al&nbsp;<merge source-element-name='C_FECHA_VIG_HASTA'/></cell>
+                    </row>
+                    <row>
+                        <cell align='left' class='ItemNameNormal' vertical-align='top'>Cobertura:</cell>
+                        <cell align='left' class='ItemValueNormal'><merge source-element-name='C_SUB_RAMA'/></cell>
+                    </row>
+                <if condition='NIVEL_COB_POLIZA'>
+                <row>
+                    <cell colspan='2'>
+                        <table widths='9cm,3cm,3cm,*'  padding-all='2' border-width-right='0'
+                                   border-width-left='0' border-width-top='0' border-width-bottom='0.03'>
+                                <merge source-element-name='TABLA_COBERTURAS'/>
+                        </table>                      
+                    </cell>
+                </row>
+                </if>
+                <if condition='NO_SVO'>
+                    <row>
+                        <cell align='left' class='ItemNameBold' vertical-align='top' colspan='2' >
+                        CERTIFICAMOS QUE LA PRESENTE POLIZA NO POSEE DEUDA EXIGIBLE AL DIA DE LA FECHA.
+                        </cell>
+                    </row>
+                    <row>
+                        <cell align='left' class='ItemNameBold' vertical-align='top' colspan='2'>
+                        Buenos Aires,&nbsp;<merge source-element-name='C_FECHA_TRABAJO'/>.<merge source-element-name='C_DIAS'/>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell align='left' class='ItemNameBold' min-height='30' vertical-align='middle' colspan='2' >
+                            &nbsp;La presente constancia no implica renuncia a oponer la suspensi&oacute;n o caducidad de la cobertura por falta de pago del premio correspondiente de acuerdo a las respectivas condiciones generales de p&oacute;liza.
+                        </cell>
+                    </row>
+                </if>
+                <if condition='SVO'>
+                    <row>
+                        <cell align='left' class='ItemNameBold' vertical-align='top' colspan='2'>
+                        Buenos Aires,&nbsp;<merge source-element-name='C_FECHA_TRABAJO'/>.<merge source-element-name='C_DIAS'/>.
+                        </cell>
+                    </row>
+                    <row>
+                        <cell align='left' class='ItemNameBold' colspan='2'>
+        &nbsp;&nbsp;&nbsp;- Carece de validez si el personal informado en el mismo no se encuentra declarado en la &uacute;ltima n&oacute;mina presentada en el S.U.S.S. (Sistema Unico de la Seguridad
+        Social) o no posee alta temprana y siempre que el mismo no haya sido dado de baja a la fecha de emisi&oacute;n del Presente.
+                        </cell>
+                    </row>    
+                    <row>
+                        <cell align='left' class='ItemNameBold' colspan='2'>
+        &nbsp;&nbsp;&nbsp;- Carece de validez si el tomador no abona la prima perteneciente al per&iacute;odo que corresponda dentro de las fechas estipuladas por el calendario de AFIP para los vencimientos del SUSS de acuerdo a la terminaci&oacute;n del CUIT.
+                        </cell>
+                    </row>
+                </if>    
+                </table>
+            </cell>
+        </row>
+        <row>
+            <cell align='center' class='ItemSubTitulo'>Asegurado/s</cell>
+        </row>
+    </table>
+    <table widths='8cm,3cm,3cm,*'  padding-all='2'
+           border-width-right='0'
+           border-width-left='0'
+           border-width-top='0'
+           border-width-bottom='0.03'>
+        <merge source-element-name='TABLA_ASEGURADOS'/>
+    <row>
+        <cell min-height='20' colspan='4' >&nbsp;</cell>
+    </row>
+    </table>
+    <if condition='CLAUSULAS'>
+        <table padding-all='2'  width='100%' block-align='center' border-width-all='0' >
+            <row>
+                <cell align='center' class='ItemSubTitulo'>Clausulas:</cell>
+            </row>
+            <row>
+                <cell align='left' class='ItemNameBold'><merge source-element-name='C_CLA_NO_REPETICION'/>&nbsp;-&nbsp;<merge source-element-name='C_CLA_SUBROGACION'/></cell>
+            </row>
+        </table>
+        <table padding-all='2'  widths='10cm' block-align='center' border-width-all='0' >
+           <row>
+               <cell min-height='20'  class='ItemNameBold' align="left">Empresas beneficiarias:</cell>
+           </row>
+            <merge source-element-name='TABLA_CLAUSULAS'/>
+           <row>
+               <cell min-height='20'>&nbsp;</cell>
+           </row>
+        </table>
+    </if>
+
+    <table  width='100%' padding-all='2' block-align='center'>
+        <row>
+            <cell align='center' class='ItemSubTitulo'>Información adicional</cell>
+        </row>
+        <merge source-element-name='TABLA_TEXTOS'/>
+        <row>
+            <cell  align='right' vertical-align='middle' min-height='110' >
+                <show-image image-name='firma' scale-width='90' scale-height='102'/>
+            &nbsp;&nbsp;&nbsp;
+            </cell>
+        </row>
+    </table>
+<!--   
+    <table  width='100%'   border-width-all='0'>
+        <row>
+            <cell  align='right' vertical-align='middle' min-height="110" colspan='3'>
+                <show-image image-name='firma' scale-width='90' scale-height='102'/>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </cell>
+        </row>
+    </table>
+-->
+<!--
+    <if condition='HAY_TEXTOS'>
+        <table width='100%' padding-all='2' indent-top='1'>
+            <row>
+                <cell align='center' class='ItemSubTitulo'>Información adicional</cell>
+            </row>
+            <row>
+                <cell>
+                    <table padding-all='1'  widths='80%,*' block-align='center' border-width-all='0' >
+                        <row>
+                            <cell>
+                                <table width='100%' padding-all='0' indent-right='2'>
+                                    <merge source-element-name='TABLA_TEXTOS'/>
+                                </table>
+                            </cell>
+                            <cell  align='center' vertical-align='bottom'><show-image image-name='firma' scale-width='128' scale-height='113'/></cell>
+                        </row>
+                    </table>
+                </cell>
+            </row>
+        </table>
+     </if>
+    <if condition='NO_TEXTOS'>
+        <table width='100%' padding-all='2' indent-top='1'>
+            <row>
+                <cell  align='right' vertical-align='bottom'><show-image image-name='firma' scale-width='128' scale-height='113'/></cell>
+            </row>
+        </table>
+     </if>
+-->
+</document>

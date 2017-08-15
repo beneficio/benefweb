@@ -1,0 +1,57 @@
+webmaster@beneficiosa.com.ar&&relisii@beneficiosa.com.ar&&null&&null&&PROPUESTA SALUD   - N° 524253&&AVISO DE ENVIO DE PROPUESTA DE SALUD   - N 524253
+---------------------------------------
+
+NUM PROPUESTA: 524253
+ENVIADA POR  : ELISII ROLANDO
+PRODUCTOR    : PRUEBA    (31038)
+NUM COTIZACION: 0
+FECHA        : 13/02/2015, 10:30
+ 
+Tomador           : ADFADASDA ADASD
+DNI               : DNI 2342344
+Domicilio         : ADASDASASDA ADA (1897) - Salta
+Ambito            : null
+Como enviar póliza: Desea recibir la póliza via mail
+Descripción Tareas: null
+Cond I.V.A        : Consumidor Final
+ 
+Características del seguro
+-------------------------- 
+Vigencia            : Anual, desde 13/02/2015 hasta 13/02/2016
+Facturación         : Mensual
+Cantidad de Vidas   : 1
+ 
+Descripcion de Coberturas
+-------------------------
+Muerte por accidente                   $           0.00
+Invalidez permanente total y/o parcial $           0.00
+Asistencia medica farmaceutica         $           0.00
+Franquicia                             $           0.00
+ 
+Presupuesto
+-----------
+Prima pura          $           0.00
+Sub-Total           $           0.00
+Subtotal            $           0.00
+ GDA            20.00%  $       0.00
+Recargos finan.  0.00%  $       0.00
+Derecho de Emision  $           0.00
+Prima Tarifa        $           0.00
+ Ajustes opciones: no ajusta.
+ Ajustes opcionales: no ajusta.
+ IVA   0.00%        $           0.00
+ Tasa SSN   0.00%   $           0.00
+ Serv.Soc   0.00%   $           0.00
+ Sellado    0.00%   $           0.00
+Premio              $         240.00
+Forma de Pago:
+CUPONES, 1 cuotas de $0.00
+
+
+ 
+Nómina de asegurados 
+-------------------- 
+  - ADFADASDA ADASD DNI: 2342344 - F. Nac: 12/12/1954
+ 
+Este es un mensaje automático generado por BENEFICIO WEB.
+Cualquier duda o consulta puede comunicarse por este medio a webmaster@beneficiosa.com.ar

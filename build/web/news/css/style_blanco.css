@@ -1,0 +1,123 @@
+@charset "utf-8";
+/* CSS Document */
+
+<style type="text/css">
+
+
+.LEGALES {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-align: left;
+	font-size: 12px;
+	font-style: normal;
+	line-height: 12px;
+	color: #00588f;
+	font-variant: normal;
+	vertical-align: top;
+}
+.LEGALES1 {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-align: right;
+	font-size: 20px;
+	font-style: bold;
+	line-height: 22px;
+	color: #00588f;
+	font-variant: normal;
+	vertical-align: top;
+}
+.LEGALES2 {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-align: left;
+	font-size: 10px;
+	font-style: normal;
+	line-height: normal;
+	color: #00588f;
+	font-variant: normal;
+	vertical-align: top;
+}
+
+.LEGALES a {
+	color: #F00;
+	font-size:12px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	line-height: normal;
+	vertical-align:top;
+}
+.LEGALESb {
+	color: #00588f;
+	font-size:12px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bold;
+	line-height: normal;
+	vertical-align:top;
+	
+}
+
+.numeracion {
+	font-family: "Frutiger 57Cn", "Frutiger 55 Roman", "Frutiger 47LightCn", "Frutiger 45 Light", "Frutiger 87ExtraBlackCn", "Frutiger 95 UltraBlack";
+	font-size: 18px;
+	color: #FFF;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	line-height: 6px;
+	text-transform: capitalize;
+}
+.titulo {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #00588f;
+	margin-left: 10px;
+}
+.dire {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	line-height: 12px;
+	font-variant: normal;
+	color: #00588f;
+	margin-top: 5px;
+}
+.texto {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #00588f;
+	line-height: 18px;
+	margin-left: 10px;
+}
+.texto2 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #00588f;
+}
+.texto3 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+	color: #F00;
+}
+.texto4 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	text-align: right;
+	line-height: 14px;
+	font-weight: bold;
+	color: #F00;
+}
+.LEGALES2 {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+.LEGALES {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #999;
+}
+
+
+
+</style>

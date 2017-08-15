@@ -1,0 +1,81 @@
+.textoazul {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #0468cd; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.textoazul:hover {
+	TEXT-DECORATION: underline
+}
+A.textoazul:link {
+	TEXT-DECORATION: none
+}
+A.textoazul:visited {
+	TEXT-DECORATION: none
+}
+A.textoazul:active {
+	TEXT-DECORATION: none
+}
+.fecha {
+	FONT-WEIGHT: normal; FONT-SIZE: 9px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.fecha:hover {
+	COLOR: #000000; TEXT-DECORATION: underline
+}
+A.fecha:link {
+	TEXT-DECORATION: none
+}
+A.fecha:visited {
+	TEXT-DECORATION: none
+}
+A.fecha:active {
+	TEXT-DECORATION: none
+}
+.textoazulbold {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #0468cd; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.textonegro {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #000000; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.textogris {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; COLOR: #666666; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.textogris:hover {
+	COLOR: #000000; TEXT-DECORATION: underline
+}
+A.textogris:link {
+	TEXT-DECORATION: underline
+}
+A.textogris:visited {
+	TEXT-DECORATION: none
+}
+A.textogris:active {
+	TEXT-DECORATION: none
+}
+A.textogris:link {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; COLOR: #666666; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.textoazul10 {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; COLOR: #0468cd; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.textoazulbold10 {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #0468cd; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.textonegro33 {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #333333; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.textonegro12 {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #000000; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.textoazul2 {
+	FONT: 11px Arial, Helvetica, sans-serif; WIDTH: 5px; COLOR: #0468cd; POSITION: absolute; HEIGHT: 5px; TEXT-DECORATION: none
+}
+A:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #0468cd; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #000000; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #0468cd; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A:active {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #0468cd; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}

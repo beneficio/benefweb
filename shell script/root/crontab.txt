@@ -1,0 +1,30 @@
+30 3 * * * /root/stop.sh
+35 3 * * * /root/start.sh
+45 7 * * 1-6 /root/interface.bat | /usr/bin/email -b -s "Se ha lanzado interface.bat en Beneficio " relisii@beneficiosa.com.ar
+# domingo = 0 o 7
+0 17 * * 0 /root/interDomingo.bat | /usr/bin/email -b -s "Se ha lanzado interDomingo.bat en Beneficio " relisii@beneficiosa.com.ar
+#45 7 * * 0-6 /root/interface.bat | /usr/bin/nail -s "Se ha lanzado interface.bat en Beneficio " relisii@beneficiosa.com.ar
+*/7 9-21 * * 1-6 /root/interPolizas.bat
+*/7 9-22 * * 0 /root/interPolizas.bat
+0 0 * * 1-6 /bin/tar -czvf /mnt/part/tomcat.tar.gz /opt/tomcat/* -X /root/exclusiones_tomcat_tar_gz
+30 0 * * 0 /bin/tar -czvf /mnt/part/pgsql.tar.gz /var/lib/pgsql/*
+10 0 * * 1-6 /root/back_postgres.sh
+0 1 * * 1-6 /bin/tar -czvf /mnt/part/root.tar.gz /root/*
+20 9,10,11,12,13,14,15,16,17,18,19 * * 0,1,2,3,4,5,6 /root/depurarProp.bat
+10 1 * * 1-6 /root/back_postgres_all.sh
+*/2 9-18 * * 1-5 /root/intPreliqResp.bat
+*/4 9-20 * * * /root/interProp.bat
+*/2 9-20 * * * /root/interPropNew.bat
+*/5 9-22 * * * /root/enviarMensajes.bat
+0 0 * * * /usr/sbin/ntpdate 0.rhel.pool.ntp.org 1.rhel.pool.ntp.org
+0 22 * * 1-6 /root/ProcesarReportes.bat
+2 19 * * 0-6 /root/interPropNewBatch.bat
+0 4 * * 0-6 /mnt/part/drop2box.sh
+0 3 * * 0-6 /usr/bin/find /home/adrian/ -type f -name 'WEB*.TXT'  -mtime +240 -exec rm -rf {} \;
+5 3 * * 0-6 /usr/bin/find /home/adrian/ -type f -name 'ACT*.TXT'  -mtime +180 -exec rm -rf {} \;
+10 3 * * 0-6 /usr/bin/find /opt/tomcat/webapps/benef/files/dc/ -type f -name 'cupon.*'  -mtime +180 -exec rm -f {} \;
+15 3 * * 0-6 /usr/bin/find /opt/tomcat/webapps/benef/files/dc/ -type f -name 'preliq.*'  -mtime +30 -exec rm -f {} \;
+20 3 * * 0-6 /usr/bin/find /opt/tomcat/webapps/benef/files/dc/ -type f -name 'comision.*'  -mtime +30 -exec rm -f {} \;
+25 3 * * 0-6 /usr/bin/find /opt/tomcat/webapps/benef/files/dc/ -type f -name 'poliza.*'  -mtime +360 -exec rm -f {} \;
+30 3 * * 0-6 /usr/bin/find /opt/tomcat/webapps/benef/files/dc/ -type f -name 'renopend.*'  -mtime +30 -exec rm -f {} \;
+35 3 * * 0-6 /usr/bin/find /opt/tomcat/webapps/benef/files/dc/ -type f -name 'ctacte.*'  -mtime +30 -exec rm -f {} \;

@@ -1,0 +1,178 @@
+/* ### Modificación de los estilos de los enlaces ### */
+h1, h2, h3, h4, h5, h6, p, strong, form, acronym, label, span, a, hr, code, pre, hr {
+	margin:0;
+	padding:0;
+	font-size: 1em;
+	background-repeat:no-repeat;
+	list-style-type:none;
+}
+h1 {
+	font-size: 1em;
+	margin: 10px 0 10px 0;
+}
+
+h2 {
+	font-size: 1.1em;
+	margin: 10px 0 5px 0;
+}
+
+
+#dtag body, input, select, td, textarea{
+	font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+
+#dtag a {
+  text-decoration: none;
+  border-bottom-style: none;
+  border-bottom-width: 0px;
+
+}
+#dtag {
+   width: 100%;
+   border: 1px solid #ccc;
+   border-collapse: collapse;
+   margin: 20px 0 20px 0;
+}
+
+#dtag thead tr {
+  background-color: #eee;
+  font-size: 12px;
+}
+#dtag tr.even {
+  background-color: #fff;
+}
+#dtag td,table th{
+	border: 1px solid #ccc;
+}
+
+#dtag a {
+    margin:0;
+    padding:0;
+    background-repeat:no-repeat;
+    list-style-type:none;
+    border-bottom-style: none;
+    border-bottom-width: 0px;
+}
+
+#dtag th a   {
+	color:#666;
+}
+
+#dtag th a:visited{
+	color:#666;
+}
+
+#dtag th a:hover{
+	color:#666;
+}
+
+#dtag a:hover {
+	text-decoration: underline;
+}
+
+#dtag th {
+    background-color: #eee;
+ 	 height: 20px;
+         text-align: center;
+	 vertical-align: middle;
+}
+
+#dtag th a {
+  color: black;
+}
+
+#dtag td {
+	height: 25px;
+	padding: 2px 4px 2px 4px;
+        text-align: left;
+	vertical-align: middle;
+}
+
+#dtag th a:visited{
+  color: black;
+}
+
+#dtag th a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+#dtag th.sorted a {
+	background-position: right;
+	display: block;
+	width: 100%;
+}
+
+#dtag th.sortable a {
+	background-position: right;
+	display: block;
+	width: 100%;
+}
+
+#dtag th.sortable a {
+	background-image: url(../images/arrow_off.png);
+}
+
+#dtag th.order1 a {
+	background-image: url(../images/arrow_down.png);
+}
+
+#dtag th.order2 a {
+	background-image: url(../images/arrow_up.png);
+}
+
+#dtag th.sorted {
+    background-color: #FFE33E;
+}
+
+
+img{
+	border:none;
+}
+
+div.exportlinks {
+	background-color: #eee;
+	border: 1px dotted #999;
+	padding: 2px 4px 2px 4px;
+	margin: -10px 0 10px 0;
+	width: 100%;
+}
+
+span.export {
+	padding: 0 4px 1px 20px;
+	display:inline; display:inline-block;
+	cursor: pointer;
+}
+
+span.excel {
+	background-image: url(../images/ico_file_excel.png);
+}
+span.csv {
+	background-image: url(../images/ico_file_csv.png);
+}
+span.xml {
+	background-image: url(../images/ico_file_xml.png);
+}
+
+span.pagebanner {
+	background-color: #eee;
+	border: 1px dotted #999;
+	padding: 2px 4px 2px 4px;
+	width: 100%;
+	margin-top: 10px;
+	display:block;
+	border-bottom: none;
+        font-size: 10px;
+}
+
+span.pagelinks {
+	background-color: #eee;
+	border: 1px dotted #999;
+	padding: 2px 4px 2px 4px;
+	width: 100%;
+	display:block;
+	border-top: none;
+	margin-bottom: -5px;
+	font-size: 10px;
+}

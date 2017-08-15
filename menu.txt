@@ -1,0 +1,11 @@
+1.1|Nuevo Certificado|/benef/certificado/formCertificado.jsp|1|1|1|1|1|
+1|Certificados||1|0|1|1|1|
+1.2|Mis Certificados|/benef/servlet/CertificadoServlet?opcion=getAllCert|2|1|1|1|1|
+1.1|Nuevo Certificado|/benef/certificado/formCertificado.jsp|1|1|1|0|0|
+5.1|Usuarios|/benef/servlet/setAccess?opcion=getAllUsuarios&estado=A|1|5|1|0|0|
+5.2|Usuarios activos|/benef/servlet/setAccess?opcion=getAllUsuarios&estado=S|2|5|1|0|0|
+5.3|Usuarios inactivos|/benef/servlet/setAccess?opcion=getAllUsuarios&estado=N|3|5|1|0|0|
+5.4|Agregar|/benef/servlet/setAccess?opcion=getUsuario&numSecuUsu=-1|4|5|1|0|0|
+5|Administracion||5|0|1|0|0|
+1|Certificados||1|0|1|0|0|
+1.2|Consulta|/benef/servlet/CertificadoServlet?opcion=getAllCert|2|1|1|0|0|

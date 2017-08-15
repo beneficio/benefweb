@@ -1,0 +1,257 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Combos interactivos</title>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+<style type="text/css">
+body{ font-family: sans-serif }
+span{ display: block; width: 100px; float: left; clear: left;}
+select{ float: left;  }
+</style>
+</head>
+<body>
+
+<p>
+   <span>Continente</span>
+   <select id="select1">
+   <option value=""></option>
+   </select>
+</p>
+<p>
+   <span>País</span>
+   <select id="select2">
+   <option value=""></option>
+   </select>
+</p>
+<p>
+   <span>Cuidad</span>
+   <select id="select3">
+   <option value=""></option>
+   </select>
+</p>
+<p>
+   <span>Aldea</span>
+   <select id="select4">
+   <option value=""></option>
+   </select>
+</p>
+
+<script>
+function hCombos(){
+   this.ids  = [];
+   this.info = {};
+   this.num  = {};
+   this.objs = [];
+   this.pre  = [];
+   this.ocupado = false;
+
+   this.init = function(){
+      var clase = this;
+      var id, obj;
+      for(var n = 0; n < this.ids.length; n++){
+         id = this.ids[n];
+         this.num[id] = n;
+         obj = document.getElementById(id);
+         if (n != this.ids.length - 1){
+            obj.onchange = function(){
+               if(clase.ocupado == false){
+                  clase.ocuapo == true;
+                  clase.change(this, this.id);
+                  clase.ocupado = false;
+               }
+            };
+         }
+         this.objs.push(obj);
+      }
+      this.refreshOpts(0, this.info);
+
+      if (this.pre.length > 0){
+         var combo, options;
+         for(var n = 0; n < this.pre.length; n++){
+            combo = this.objs[n];
+            options = combo.getElementsByTagName("option");
+            for(var m = 0; m < options.length; m++){
+               if(options[m].value == this.pre[n]){
+                  options[m].selected = "selected";
+                  if (combo.onchange)   combo.onchange();
+               }
+            }
+         }
+      }
+
+   };
+
+   this.change = function(obj, id){
+      var arbol = this.info;
+      var numNivel = this.num[id];
+      var arbolDes = '';
+      var arbolId = '';
+      var arbolHijo = {};
+      var restantes = 0;
+
+      for (var n = 0; n < this.ids.length; n++){
+         arbolId = this.objs[n].value;
+         if(!arbolId){
+            restantes = n + 1;
+            break;
+         }
+         arbolDes = arbol[arbolId].des;
+
+         if (n == numNivel){
+            this.refreshOpts(n + 1, arbol[arbolId].values);
+         }
+
+         arbol = arbol[arbolId].values;
+      }
+      if(restantes < this.ids.length)
+      for(var n = restantes; n < this.ids.length; n++){
+         this.refreshOpts(n, {});
+      }
+   };
+
+   this.refreshOpts = function(nCombo, valores){
+      if (!this.objs[nCombo]) return;
+      var combo = this.objs[nCombo];
+      var preVal = combo.value;
+      combo.innerHTML = '';
+
+      var opt = this.newOpt('', '');
+      combo.appendChild(opt);
+
+      for(x in valores){
+         opt = this.newOpt(x, valores[x].des);
+         combo.appendChild(opt);
+      }
+   };
+
+   this.newOpt = function(value, innerHTML){
+      var opt = document.createElement('option');
+      opt.value = value;
+      opt.innerHTML = innerHTML;
+      return opt;
+   };
+
+};
+
+    
+   var combos = new hCombos();
+   combos.ids = ['select1', 'select2', 'select3', 'select4'];
+   combos.pre = ['1', '1.1', '1.1.3', '1.1.3.2'];
+   combos.info = {
+      "1": {des: "America",
+         values: {
+            "1.1": {des: "Argentina",
+               values: {
+                  "1.1.1": {des: "Ciudad de Argentina 1",
+                     values:{
+                        "1.1.1.1": {des: "Aldea 1 de la primera cuidad de Argentina"},
+                        "1.1.1.2": {des: "Aldea 2 de la primera cuidad de Argentina"},
+                        "1.1.1.3": {des: "Aldea 3 de la primera cuidad de Argentina"},
+                     }
+                  },
+                  "1.1.2": {des: "Ciudad de Argentina 2",
+                     values:{
+                        "1.1.2.1": {des: "Aldea 1 de la segunda cuidad de Argentina"},
+                        "1.1.2.2": {des: "Aldea 2 de la segunda cuidad de Argentina"},
+                        "1.1.2.3": {des: "Aldea 3 de la segunda cuidad de Argentina"},
+                     }
+                  },
+                  "1.1.3": {des: "Ciudad de Argentina 3",
+                     values:{
+                        "1.1.3.1": {des: "Aldea 1 de la tercera cuidad de Argentina"},
+                        "1.1.3.2": {des: "Aldea 2 de la tercera cuidad de Argentina"},
+                        "1.1.3.3": {des: "Aldea 3 de la tercera cuidad de Argentina"},
+                     }
+                  }
+               }
+            },
+            "1.2": {des: "Honduras",
+               values: {
+                  "1.2.1": {des: "Ciudad de Honduras 1"},
+                  "1.2.2": {des: "Ciudad de Honduras 2"},
+                  "1.2.3": {des: "Ciudad de Honduras 3"}
+               },
+            },
+            "1.3": {des: "México",
+               values: {
+                  "1.3.1": {des: "Cuidad de México 1"},
+                  "1.3.2": {des: "Cuidad de México 2"},
+                  "1.3.3": {des: "Cuidad de México 3"}
+               }
+            }
+         }
+      },
+      "2": {des: "Asia",
+         values: {
+            "2.1": {des: "China",
+               values: {
+                  "2.1.1": {des: "Ciudad de China 1"},
+                  "2.1.2": {des: "Ciudad de China 2"},
+                  "2.1.3": {des: "Ciudad de China 3"}
+               }
+            },
+            "2.2": {des: "Japón",
+               values: {
+                  "2.2.1": {des: "Ciudad de Japón 1"},
+                  "2.2.2": {des: "Ciudad de Japón 2"},
+                  "2.2.3": {des: "Ciudad de Japón 3"}
+               },
+            },
+            "2.3": {des: "Korea",
+               values: {
+                  "2.3.1": {des: "Cuidad de Korea 1",
+                     values:{
+                        "3.2.1.1": {des: "Aldea 1 de la primera cuidad de Korea"},
+                        "3.2.1.2": {des: "Aldea 2 de la primera cuidad de Korea"},
+                        "3.2.1.3": {des: "Aldea 3 de la primera cuidad de Korea"},
+                     }
+                  },
+                  "2.3.2": {des: "Cuidad de Korea 2",
+                     values:{
+                        "3.2.1.1": {des: "Aldea 1 de la primera cuidad de Korea"},
+                        "3.2.1.2": {des: "Aldea 2 de la primera cuidad de Korea"},
+                        "3.2.1.3": {des: "Aldea 3 de la primera cuidad de Korea"},
+                     }
+                  },
+                  "2.3.3": {des: "Cuidad de Korea 3",
+                     values:{
+                        "3.2.1.1": {des: "Aldea 1 de la primera cuidad de Korea"},
+                        "3.2.1.2": {des: "Aldea 2 de la primera cuidad de Korea"},
+                        "3.2.1.3": {des: "Aldea 3 de la primera cuidad de Korea"},
+                     }
+                  }
+               }
+            }
+         }
+      },
+      "3": {des: "Europa",
+         values: {
+            "3.1": {des: "Alemania",
+               values: {
+                  "3.1.1": {des: "Ciudad de Alemania 1"},
+                  "3.1.2": {des: "Ciudad de Alemania 2"},
+                  "3.1.3": {des: "Ciudad de Alemania 3"}
+               }
+            },
+            "3.2": {des: "España",
+               values: {
+                  "3.2.1": {des: "Ciudad de España 1"},
+                  "3.2.2": {des: "Ciudad de España 2"},
+                  "3.2.3": {des: "Ciudad de España 3"}
+               },
+            },
+            "3.3": {des: "Francia",
+               values: {
+                  "3.3.1": {des: "Cuidad de Francia 1"},
+                  "3.3.2": {des: "Cuidad de Francia 2"},
+                  "3.3.3": {des: "Cuidad de Francia 3"}
+               }
+            }
+         }
+      }
+   };
+   combos.init();
+</script>
+
+</body>
+</html>

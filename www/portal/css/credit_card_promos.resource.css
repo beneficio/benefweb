@@ -1,0 +1,438 @@
+body {
+    font-family: Arial;
+    font-size: 12px;
+    padding: 0;
+}
+
+h1 {
+    border-bottom: solid 1px #ccc;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+/* Chico
+************************************************/
+
+.ch-box {
+    box-shadow: 1px 1px 3px #CCC;
+    border-radius: 15px;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#EEEEEE', endColorstr='#FFFFFF');
+}
+
+.error-message {
+    color: #990000;
+}
+
+/* Promos
+************************************************/
+
+#container {
+    width: 810px;
+    margin: 0 auto;
+}
+
+#header {
+    text-align: center;
+}
+
+.pmt {
+    cursor: default;
+    height: 160px;
+    line-height: 22px;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.pmt h2 {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 0;
+    color: #4978A3;
+}
+
+.pmt p {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 0;
+    line-height: 18px;
+}
+
+
+#conditions {
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+#conditions h1 {
+    position: fixed;
+}
+
+#conditions a,
+#conditions a:link,
+#conditions a:active,
+#conditions a:visited {
+    color: #22f;
+    text-decoration: none;
+}
+
+#conditions a:hover {
+    text-decoration: underline;
+}
+
+#legals ul {
+    height: 460px;
+    overflow-y: auto;
+    width: 800px;
+}
+
+.bank {
+    font-weight: bold;
+}
+
+/* Banks */
+
+.issuer-294,
+.issuer-338,
+.issuer-303,
+.issuer-272,
+.issuer-282,
+.issuer-279,
+.issuer-296,
+.issuer-297,
+.issuer-2,
+.issuer-3,
+.issuer-688,
+.issuer-288,
+.issuer-313,
+.issuer-692,
+.issuer-333,
+.issuer-326,
+.issuer-286,
+.issuer-279,
+.issuer-284,
+.issuer-1044,
+.issuer-331,
+.issuer-287,
+.issuer-1005,
+.issuer-1016,
+.issuer-1013,
+.issuer-1011,
+.issuer-1007,
+.issuer-1009,
+.issuer-1010,
+.issuer-1014,
+.issuer-1015,
+.issuer-1006,
+.issuer-1008,
+.issuer-1012,
+.issuer-1025,
+.issuer-1026,
+.issuer-1027,
+.issuer-1028,
+.issuer-1041,
+.issuer-319,
+.issuer-1043,
+.issuer-1040,
+.issuer-1049 {
+    background: url('../credit_card_promos.resource.png/banks?nocache=true') no-repeat;
+    display:block;
+    text-indent: -500px;
+    width: 240px;
+    height: 95px;
+}
+
+/* Chile */
+.issuer-168,
+.issuer-169,
+.issuer-200,
+.issuer-683,
+.issuer-690,
+.issuer-691,
+.issuer-1040 {
+    background: url('../credit_card_promos.resource.png/banks-mlc?nocache=true') no-repeat;
+    display:block;
+    text-indent: -500px;
+    width: 240px;
+    height: 95px;
+}
+
+/* Visa */
+.issuer-168 {
+    background-position: -2px 15px;
+}
+
+/* American Express Chile */
+.issuer-169 {
+    background-position: -20px -65px;
+}
+
+/* Master */
+.issuer-200 {
+    background-position: -3px -155px;
+}
+
+/* Dinners */
+.issuer-683 {
+    background-position: -15px -237px;
+}
+
+/* Magna */
+.issuer-690 {
+    background-position: -13px -315px;
+}
+
+/* Presto */
+.issuer-691 {
+    background-position: -10px -405px;
+}
+
+/* CMR */
+.issuer-1040 {
+    background-position: -25px -490px;
+}
+
+/* Mexico */
+.issuer-159,
+.issuer-160 {
+    background: url('../credit_card_promos.resource.png/banks-mlm?nocache=true') no-repeat;
+    display:block;
+    text-indent: -500px;
+    width: 240px;
+    height: 95px;
+}
+
+/* Banamex */
+.issuer-159 {
+    background-position: -15px -240px;
+}
+
+/* Santander */
+.issuer-160 {
+    background-position: -14px -314px; /* Argentina -35px -2620px;*/
+}
+
+/* Argentina
+********************************************/
+
+/* AMEX */
+.issuer-2,
+.issuer-1041{
+    background-position: -35px -2375px;
+}
+
+/* Banco Hipotecario */
+.issuer-1006,
+.issuer-294{
+    background-position: -15px 14px;
+}
+
+/* ICBC */
+.issuer-338,
+.issuer-1012,
+.issuer-1027 {
+    background-position: -15px -60px
+}
+
+/* Banco Macro */
+.issuer-297 {
+    background-position: -15px -152px;
+}
+
+/* Banco Patagonia */
+.issuer-303,
+.issuer-1009 {
+    background-position: -15px -227px;
+}
+
+/* Banco Provincia */
+.issuer-688,
+.issuer-1015 {
+    background-position: -15px -305px;
+}
+
+/* Banco Itaú */
+.issuer-296,
+.issuer-1008 {
+    background-position: -15px -380px;
+}
+
+/* Banco Comafi */
+.issuer-272,
+.issuer-1014 {
+    background-position: -15px -458px;
+}
+
+/* Banco De La Nacion Argentina */
+.issuer-282,
+.issuer-1025 {
+    background-position: -15px -524px;
+}
+
+/* Banco Galicia */
+.issuer-279 {
+    background-position: -15px -150px;
+}
+
+/* Tarjeta Shopping */
+.issuer-288 {
+    background-position: -15px -610px;
+}
+
+/* Banco Supervielle */
+.issuer-313,
+.issuer-1010 {
+    background-position: -15px -718px;
+}
+
+/* Cencosud */
+.issuer-692 {
+    background-position: -15px -816px;
+}
+
+/* Banco De Santa Fe  */
+.issuer-333 {
+    background-position: -15px -1018px;
+}
+
+/* Banco De San Juan */
+.issuer-286 {
+    background-position: -15px -922px;
+}
+
+/* Banco Galicia */
+.issuer-279 {
+    background-position: -15px -1118px;
+}
+
+/* Banco Provincia */
+.issuer-284,
+.issuer-1044 {
+    background-position: -15px -1225px;
+}
+
+/* Banco Entre Rios */
+.issuer-331 {
+    background-position: -15px -1345px;
+}
+
+/* Banco de Santa Cruz */
+.issuer-287 {
+    background-position: -30px -1455px;
+}
+
+/* Provencred */
+.issuer-1005 {
+    background-position: -30px -1570px;
+}
+
+/* Banco Ciudad */
+.issuer-1016 {
+    background-position: -30px -1780px;
+}
+
+/* Citi Bank */
+.issuer-319,
+.issuer-1013 {
+    background-position: -35px -1900px;
+}
+
+/* Banco HSBC */
+.issuer-326,
+.issuer-1011 {
+    background-position: -30px -2012px;
+}
+
+/* Banco Nativa */
+.issuer-1007 {
+    background-position: -30px -1675px;
+}
+
+/* Banco Industrial */
+.issuer-1026 {
+    background-position: -30px -2110px;
+}
+
+/* Banco Diners */
+.issuer-1028 {
+    background-position: -30px -2230px;
+}
+
+/* Banco Tucuman */
+.issuer-1043 {
+    background-position: -35px -2508px;
+}
+
+/* Banco La Pampa */
+.issuer-1049 {
+    background-position: -35px -2610px;
+}
+
+/* Legals
+************************************************/
+
+#legals li {
+    padding: 5px;
+    margin-bottom: 10px;
+    border: solid 1px #fff;
+    border-radius: 10px;
+}
+
+
+/* Footer
+************************************************/
+
+#footer {
+    color: #666;
+    font-size: 1.6em;
+    margin: 10px 6px;
+    width: 798px;
+}
+
+#footer div {
+    padding: 10px;
+    height: 45px;
+}
+
+#footer #mp-logo img {
+    height: 21px;
+    margin: 7px 4px 0 0;
+    position: relative;
+    top: 5px;
+    vertical-align: baseline;
+}
+
+ul.fan li{
+    margin: 0 10px;
+}
+
+ul.fan li.twitter,
+ul.fan li.facebook {
+    background: url('../credit_card_promos.resource.png/sprite-footer') no-repeat left;
+    text-indent: -9000px;
+    float:right;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 7px;
+}
+
+ul.fan li.twitter a,
+ul.fan li.facebook a{
+    display: block;
+    width: 30px;
+    height: 30px;
+}
+
+ul.fan li.mp {
+    float: left;
+}
+
+ul.fan li.twitter {
+    background-position: 0 -63px;
+}
+
+ul.fan li.facebook {
+    background-position: 0 -1px;
+}

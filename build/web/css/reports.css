@@ -1,0 +1,99 @@
+body { 
+scrollbar-face-color : #B0C4DE;  <!-- barra -->
+scrollbar-shadow-color : #EEFFFF;  <!-- celeste -->
+scrollbar-highlight-color : #3333FF; 
+scrollbar-3dlight-color : #EEFFFF; 
+scrollbar-darkshadow-color : #EEFFFF; 
+scrollbar-track-color : #EEEEFF; <!-- fondo --> 
+scrollbar-arrow-color : #7777FF;
+margin-right: 0;
+overflow: auto;
+}
+
+#tblDatos {
+	BACKGROUND-COLOR: #ffffff;
+	BORDER-TOP: #000000 1px solid;
+	BORDER-LEFT: #000000 1px solid;
+
+}
+#tblDatos TR TH {
+	background-image : url(/images/tit.gif);
+	BORDER-RIGHT: #000000 1px solid;
+	BORDER-BOTTOM: #000000 1px solid;	
+	COLOR: #000000;
+	CURSOR: default;
+	FONT-FAMILY: Arial;
+	FONT-SIZE: 8pt; 
+        FONT-WEIGHT: normal;
+	HEIGHT: 16px;
+	TEXT-ALIGN: center;
+	PADDING-LEFT: 3px;
+	PADDING-RIGHT: 3px;
+	
+}
+#tblDatos TD {
+	BORDER-BOTTOM: #000000 1px solid;
+	BORDER-RIGHT: #000000 1px solid;
+	COLOR:#000000;
+	FONT-FAMILY: Arial;
+	FONT-SIZE: 8pt;
+	FONT-WEIGHT: normal;
+	HEIGHT: 16px;
+	PADDING-LEFT: 2px;
+	PADDING-RIGHT: 2px;
+}
+
+.tblDatos {
+        BORDER : #000000 1px solid;
+}
+.tblDatos2 {
+	BORDER-TOP: #000000 1px solid;
+	BORDER-LEFT: #000000 1px solid;
+}
+
+.Titulos {
+	text-decoration : none;
+	COLOR: #000000;
+ 	FONT-FAMILY: Verdana, Arial;
+	font-size : 12pt;
+	font-weight : bold;
+}
+
+.SubTitulos {
+        background-color : #EEEEFF;
+	text-decoration : none;
+	COLOR: #000000;
+	FONT-FAMILY: Verdana, Arial;
+	font-size : 10pt;
+	font-weight : bold;
+}
+
+.SubTitulos2 {
+	text-decoration : none;
+	COLOR: #000000;
+	FONT-FAMILY: Verdana, Arial;
+	font-size : 10pt;
+	font-weight : bold;
+}
+.campo {
+text-decoration : none;
+COLOR: #000000;
+FONT-FAMILY: Verdana, Arial;
+font-size : 7pt;
+font-weight : normal;
+}
+
+.campoBold {
+	text-decoration : none;
+	COLOR: #000000;
+	FONT-FAMILY: Verdana, Arial;
+	font-size : 8pt;
+	font-weight : bold;
+}
+.valor {
+text-decoration : none;
+COLOR: #000000;
+FONT-FAMILY: Verdana, Arial;
+font-size : 8pt;
+font-weight : bold;
+}

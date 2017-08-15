@@ -1,0 +1,16 @@
+/opt/tomcat/webapps/benef/files/as400/*
+/opt/tomcat/webapps/benef/files/ctacte/*
+/opt/tomcat/webapps/benef/files/dc/*
+/opt/tomcat/webapps/benef/files/nominas/*
+/opt/tomcat/webapps/benef/files/preliq/*
+/opt/tomcat/webapps/benef/files/mensajes/*
+/opt/tomcat/webapps/benef/files/ftppino/*
+/opt/tomcat/webapps/benef/files/libros/*
+/opt/tomcat/webapps/benef/files/renovar/*
+/opt/tomcat/webapps/benef/files/gestionCob/*
+/opt/tomcat/webapps/benef/files/certificados/*
+/opt/tomcat/webapps/benef/files/emitir/*
+/opt/tomcat/webapps/benef/files/afip/*
+/opt/tomcat/webapps/benef/files/trans/*
+/opt/tomcat/logs/*
+/opt/tomcat/webapps/benef/files/*.csv 

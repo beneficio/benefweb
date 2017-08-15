@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<items >
+
+<item name="Item text1">
+	<description><![CDATA[Felices Fiestas!]]></description>
+</item>
+<item name="Item text2">
+	<description><![CDATA[<i>Queremos desearle unas Felices Fiestas y agradecerle por todo el apoyo y la confianza que ha depositado en <font color="#fff36d">Beneficio</font> a lo largo de este tiempo.</i>]]></description>
+</item>
+</items>

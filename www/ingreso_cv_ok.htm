@@ -1,0 +1,254 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>BENEFICIO WEB</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="/benef/css/styles.css" rel="stylesheet" type="text/css">
+<SCRIPT language='javascript'>
+    function Submitir () {
+        if (document.form1.FILE1.value == '') {
+            document.form2.nombre.value     = document.form1.nombre.value;
+            document.form2.edad.value       = document.form1.edad.value;
+            document.form2.domicilio.value  = document.form1.domicilio.value;
+            document.form2.localidad.value  = document.form1.localidad.value;
+            document.form2.email.value      = document.form1.email.value;
+            document.form2.telefono1.value  = document.form1.telefono1.value;
+            document.form2.telefono2.value  = document.form1.telefono2.value;
+            document.form2.provincia.value  = document.form1.provincia.value;
+            document.form2.postula.value    = document.form1.postula.value;
+            document.form2.experiencia.value= document.form1.experiencia.value;
+
+            document.form2.submit();
+
+        } else {
+            document.form1.submit();
+        }
+        return true;
+    }
+</SCRIPT>
+</head>
+<body bgcolor="#FFFFFF"leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<form action="/benef/consulta/uploadForm.jsp" method="post" name="form2"
+enctype=''>
+<input type="hidden" name="nombre">
+<input type="hidden" name="edad">
+<input type="hidden" name="domicilio">
+<input type="hidden" name="localidad">
+<input type="hidden" name="email">
+<input type="hidden" name="telefono1">
+<input type="hidden" name="telefono2">
+<input type="hidden" name="provincia">
+<input type="hidden" name="postula">
+<input type="hidden" name="experiencia">
+</form>              
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr> 
+    <td valign="top"><table width="780" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+        <tr> 
+          <td height="80" valign="bottom" class="anclaje"><img src="images/identidad.gif" width="277" height="27"></td>
+          <td width="385" height="80" valign="bottom"><table width="150" border="0" align="right" cellpadding="0" cellspacing="0">
+              <tr> 
+                <td height="18"><div align="right"><a href="index.htm" class="link1">P&aacute;gina 
+                    Principal</a></div></td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr> 
+                <td height="18"><div align="right"><a href="registracion.htm" class="link1">Reg&iacute;strese</a></div></td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr> 
+                <td height="18"><div align="right"><a href="ingreso_cv.htm" class="link1">Ingres&aacute; 
+                    tu CV</a></div></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr> 
+                <td height="5"></td>
+                <td></td>
+                <td></td>
+              </tr>
+            </table></td>
+        </tr>
+        <tr> 
+        <td width="395" height="18" class="anclaje"><p>S.A. Compa&ntilde;ia de Seguros</p></td>
+        <td width="385" valign="bottom"><div align="right"> 
+              <table width="385" border="0" cellpadding="0" cellspacing="1">
+                <tr> 
+                  <td class="fondo" onClick="window.location='quienes.htm'" onMouseOver="this.className='fondo2'" onMouseOut="this.className='fondo'"><div align="center">Quienes 
+                      Somos</div></td>
+                  <td class="fondo" onClick="window.location='servicios.htm'" onMouseOver="this.className='fondo2'" onMouseOut="this.className='fondo'"><div align="center">Servicios</div></td>
+                  <td class="fondo" onClick="window.location='contacto.htm'" onMouseOver="this.className='fondo2'" onMouseOut="this.className='fondo'"><div align="center">Contacto</div></td>
+                </tr>
+              </table>
+            </div></td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr> 
+    <td height="7" valign="top" bgcolor="#DBDBDB"></td>
+  </tr>
+  <tr> 
+    <td valign="top" bgcolor="#A7C3D1" class="fondocuadraditos"><table width="780" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#E8F2F6">
+        <tr> 
+          <td width="23" valign="top"><p><br>
+            </p></td>
+          <td width="373" height="30" valign="middle"><strong><font color="#005279" size="2" face="Arial, Helvetica, sans-serif">Ingrese 
+            su CV:</font></strong></td>
+          <td width="384" rowspan="2" valign="top" bgcolor="#C8E0EA"><table width="385" border="0" cellpadding="0" cellspacing="0">
+              <tr bgcolor="#E8F2F6"> 
+                <td valign="top" bgcolor="#C8E0EA" ></td>
+              </tr>
+              <tr bgcolor="#E8F2F6"> 
+                <td height="159" valign="top" bgcolor="#E8F2F6" ><img src="images/whitwa-cv.jpg" width="385" height="159"></td>
+              </tr>
+              <tr bgcolor="#E8F2F6"> 
+                <td valign="top" bgcolor="#C8E0EA" class="txt2"><p>En <strong>Beneficio 
+                    S.A</strong> brindamos atenci&oacute;n personalizada <br>
+                    a todos nuestros colaboradores, asesor&aacute;ndolos y <br>
+                    facilit&aacute;ndoles la gesti&oacute;n administrativa. <br>
+                    Para lograrlo, establecemos contacto con profesionales, t&eacute;cnicos, 
+                    estudiantes pr&oacute;ximos a graduarse de todas las &aacute;reas 
+                    vinculadas al &aacute;mbito del Seguro.</p>
+                  <p>Si est&aacute;s interesado en sumarte a nuestro equipo, <br>
+                    envianos tu curr&iacute;culum vitae, completando el formulario 
+                    con tus datos. Una vez que recepcionemos tu CV autom&aacute;ticamente, 
+                    ser&aacute;s incorporado en nuestra base de datos de postulantes.
+                  </p></td>
+              </tr>
+            </table></td>
+        </tr>
+        <tr> 
+          <td colspan="2" valign="top" bgcolor="#FFFFFF"> <div align="right"> 
+              <form action="/benef/consulta/upload.jsp" method="post" enctype="multipart/form-data"
+name="form1">
+              <input type="hidden" name='documento' value='si'>
+              <table width="380" border="0" align="right" cellpadding="0" cellspacing="5">
+                <tr><td height='5' width='110'>&nbsp;</td> 
+                    <td width='255'>&nbsp;</td>
+                </tr> 
+                <tr> 
+                  <td  class="datos"><div align="right">Nombre y apellido</div></td>
+                  <td > <div align="left"> 
+                      <input type="text" size="40" maxlength="50"
+name="nombre" id="nombre">
+                    </div></td>
+                </tr>
+                <tr> 
+                  <td  class="datos"><div align="right">Edad</div></td>
+                  <td ><div align="left"> 
+                      <input name="edad" type="text" size="3" maxlength="3">
+                    </div></td>
+                </tr>
+                <tr> 
+                  <td class="datos" colspan='2' align="left"><div align="left">Puesto al que se
+postula:&nbsp;
+                      <select name="postula">
+                        <option value='Administrativo'>Administrativo</option>
+                        <option value='Comercial'>Comercial</option>
+                        <option value='Productor'>Productor</option>
+                        <option value='Otro'>Otro</option>
+                      </select>
+                    </div></td>
+                </tr>
+                <tr> 
+                  <td  class="datos"><div align="right">Domicilio</div></td>
+                  <td > <div align="left"> 
+                      <input name="domicilio" type="text" size="40"
+maxlength="50">
+                    </div></td>
+                </tr>
+                <tr> 
+                  <td  class="datos"><div align="right">Localidad</div></td>
+                  <td ><div align="left"> 
+                      <input name="localidad" type="text" size="40"
+maxlength="50">
+                    </div></td>
+                </tr>
+                <tr> 
+                  <td  class="datos"><div align="right">Provincia</div></td>
+                  <td ><div align="left"> 
+                      <input name="provincia" type="text" size="40" maxlength="25">
+                    </div></td>
+                </tr>
+                <tr> 
+                  <td class="datos"><div align="right">Telefonos:</div></td>
+                  <td ><div align="left"> 
+                      <input name="telefono1" type="text" size="15"
+maxlength="20">
+                      <span class="datos">*</span> 
+                      <input name="telefono2" type="text" size="15"
+maxlength="20">
+                    </div></td>
+                </tr>
+                <tr> 
+                  <td class="datos"><div align="right">e-mail</div></td>
+                  <td><input name="email" type="text" size="40" maxlength="50"> 
+                  </td>
+                </tr>
+                <tr> 
+                  <td height="16" colspan="2"><div align="left"> 
+                      <p class="datos">Describa brevemente su experiencia</p>
+                    </div></td>
+                </tr>
+                <tr> 
+                  <td colspan="2"><div align="center"> 
+                      <textarea name="experiencia" cols="50" rows="5"></textarea>
+                    </div></td>
+                </tr>
+                <tr> 
+                  <td colspan="2" class="datos"><div align="left">Adjunte su CV: 
+                    </div></td>
+                </tr>
+                <tr>
+                  <td colspan="2" class="datos"><!--<input name="textfield22222" type="text" size="30" maxlength="30">-->
+                    <input type="FILE"   name= "FILE1"   id="FILE1"  value="Examinar"></td>
+                </tr>
+                <tr> 
+                  <td colspan="2"><font color="#999999" size="1" face="Verdana, Arial, Helvetica, sans-serif">*Solo 
+                    puede adjuntar archivos .doc</font></td>
+                </tr>
+              </table>
+              </form>
+            </div></td>
+        </tr>
+        <tr> 
+          <td colspan="2" valign="top" bgcolor="#C8E0EA"><div align="right"> 
+              <table width="170" border="0" cellspacing="0" cellpadding="5">
+                <tr> 
+                  <td height="40"> <div align="center"> 
+                      <input type="reset" name="Submit2" value="Borrar">
+                    </div></td>
+                  <td height="40"> <div align="center"> 
+                      <input type="submit" name="Submit" value="Enviar" onclick='Submitir ();'>
+                    </div></td>
+                  <td>&nbsp;</td>
+                </tr>
+              </table>
+            </div></td>
+          <td valign="top" class="titulos">Ingresa tu CV</td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+  <tr> 
+    <td height="7" bgcolor="#DBDBDB"></td>
+  </tr>
+  <tr> 
+    <td valign="top" bgcolor="#FFFFFF"><table width="780" height="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr> 
+            <td  align="center" valign="top" class="direccion">El sitio <strong>beneficiosa.com.ar</strong> está optimizado para ser visualizado en 800x600 píxeles (formato estándar de pantalla).
+		  Recomendamos la utilización del navegador <strong>Microsoft Internet Explorer 5.5 o superior</strong>.
+		 </td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+</body bgcolor="#FFFFFF">
+<script>
+alert ("El formulario ha sido enviado exitosamente.\nMuchas gracias");
+</SCRIPT>
+</html>

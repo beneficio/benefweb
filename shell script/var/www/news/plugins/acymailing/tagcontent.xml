@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install SYSTEM "http://dev.joomla.org/xml/1.5/plugin-install.dtd">
+<install type="plugin" version="1.5" method="upgrade" group="acymailing">
+	<name>AcyMailing Tag : content insertion</name>
+	<creationDate>September 2009</creationDate>
+	<version>1.1.1</version>
+	<author>Acyba</author>
+	<authorEmail>dev@acyba.com</authorEmail>
+	<authorUrl>http://www.acyba.com</authorUrl>
+	<copyright>Copyright (C) 2009 ACYBA SARL - All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<description>This AcyMailing plugin enables you to include Joomla Articles in any e-mail sent by AcyMailing</description>
+	<files>
+		<filename plugin="tagcontent">tagcontent.php</filename>
+	</files>
+	<params addpath="/components/com_acymailing/params">
+		<param name="help" type="help" label="Help" description="Click on the help button to get some help" default="plugin-tagcontent"/>
+		<param name="wordwrap" type="text" size="10" default="0" label="Intro Word Wrapping" description="If you insert only the introduction and you didn't insert the read more link, AcyMailing will only load the first XX characters of your content. If you specify 0, AcyMailing won't wrap your content" />
+		<param name="displayart" type="radio" default="all" label="Display articles" description="Select if you want to display all articles in the popup for article selection or only published articles">
+			<option value="all">All articles</option>
+			<option value="onlypub">Only published articles</option>
+		</param>
+	</params>
+</install>

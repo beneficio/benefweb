@@ -1,0 +1,66 @@
+sistemas@beneficiosa.com.ar&&relisii@beneficiosa.com.ar&&null&&null&&PROPUESTA ACCIDENTES PERSONALES   - N° 522276&&AVISO DE ENVIO DE PROPUESTA DE ACCIDENTES PERSONALES   - N 522276
+---------------------------------------
+
+NUM PROPUESTA: 522276
+ENVIADA POR  : ELISII ROLANDO
+PRODUCTOR    : PRUEBA    (31038)
+NUM COTIZACION: 0
+FECHA        : 25/03/2014, 16:53
+ 
+Tomador           : QAEASDASDASD ASDSADSADSAD
+DNI               : DNI 31321221
+Domicilio         : ADASDSA DSADASDA (1897) - Neuquen
+Ambito            : 24 Horas
+Como enviar póliza: No desea recibir la póliza
+Descripción Tareas: null
+Cond I.V.A        : Consumidor Final
+ 
+Características del seguro
+-------------------------- 
+Ubicación del riesgo:  idem a la del tomador 
+Vigencia            : Anual, desde 26/03/2014 hasta 26/03/2015
+Facturación         : Trimestral
+Cantidad de Vidas   : 1
+ 
+Descripcion de Coberturas
+-------------------------
+Muerte por accidente                   $     100,000.00
+Invalidez permanente total y/o parcial $            .00
+Asistencia medica farmaceutica         $            .00
+Franquicia                             $            .00
+ 
+Presupuesto
+-----------
+Prima pura          $          90.48
+Sub-Total           $          90.48
+Subtotal            $          90.48
+ GDA            20.00%  $      18.10
+Recargos finan.   .00%  $        .00
+Derecho de Emision  $            .00
+Prima Tarifa        $          90.48
+ Ajustes opciones: no ajusta.
+ Ajustes opcionales: no ajusta.
+ IVA    .00%        $            .00
+ Tasa SSN    .00%   $            .00
+ Serv.Soc    .00%   $            .00
+ Sellado     .00%   $            .00
+Premio              $         156.00
+Forma de Pago:
+CUPONES, 3 cuotas de $52.00
+
+
+Beneficiarios herederos legales:S
+Beneficiarios Tomador          :N
+Clausula de No Repetición      :N
+Clausula de Subrogación        :N
+ 
+Nómina de asegurados 
+-------------------- 
+  - 43FRWERWERWE DNI: 123412312 - F. Nac: 12/12/1978
+ 
+Observaciones
+---------------------------- 
+AP COMPLEMENTARIO DE CAUCION 6 CUOTAS
+ 
+Este es un mensaje automático generado por BENEFICIO WEB.
+Cualquier duda o consulta puede comunicarse por este medio a webmaster@beneficiosa.com.ar

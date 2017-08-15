@@ -1,0 +1,256 @@
+html,
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+
+#container {
+   min-height:100%;
+   position:relative;
+}
+
+header {
+   background:#fff;
+   padding:0 2% 0 2%;
+   width:96%; height:155px;
+   border-top:5px solid #d54536;
+   border-bottom:1px solid #2788c7;
+}
+
+header h1{
+	float:left; display:block;
+	margin:0; padding:0;
+	width:365px; height:auto;	
+}
+
+header h1 a{
+	overflow:hidden;
+	float:left; display:block;
+	width:100%; height:auto;
+	margin:15px 0 0 3px; padding:0;	
+}
+
+header h2{
+	float:left; display:block;
+	width:auto; height:105px;
+	text-align:left;
+	margin:20px 0 0 20px; padding:0 0 0 20px;
+	font:normal 1.275em/105px Arial, Helvetica, sans-serif;
+	color:#2788c7;
+	border-left:1px solid #2788c7;	
+}
+
+#body {
+   padding:10px;
+   padding-bottom:160px;   /* Height of the footer */
+}
+
+footer {
+   position:absolute;
+   bottom:0;
+   padding:0 2% 0 2%;
+   width:96%;
+   height:120px;   /* Height of the footer */
+   background:#004a7b;
+}
+
+
+p.info{
+	width:400px; height:auto;
+	display:block;
+	margin:20px 0 0 0; padding:10px;
+	text-align:left;
+	font:normal 0.750em/16px Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	letter-spacing:normal;
+	color:#fff;
+}
+
+p.left{
+	float:left;
+	text-align:left;	
+}
+
+p.right{
+	float:right;
+	text-align:right;	
+}
+
+
+p.info-top{
+	width:780px; height:auto;
+	display:block;
+	margin:20px auto; padding:10px;
+	text-align:left;
+	font:normal 0.875em/18px Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	letter-spacing:normal;
+	color:#3e3e3e;
+}
+
+.form-wrap{
+	display:block;
+	width:500px; height:auto; min-height:300px;
+	margin:0 auto; padding:0;
+	background:#2788c7;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;	
+}
+
+.form-wrap h3{
+	text-align:left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	color:#fff;
+	padding:3%;
+	margin:0;	
+}
+
+.data{
+	float:left; display:block;
+	width:94%; height:auto; min-height:230px;
+	margin:1% 3% 1% 3%; padding:0;
+	background:#f6f6f6;	
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;	
+}
+
+
+.form-file{
+	border:1px solid #dfdfdf;
+	float:left; display:block;
+	width:90%; height:auto;
+	margin:20px 5% 0 5%; padding:0;
+}
+
+.usr{
+	background:#fff url(../img/ic_form.png) 8px 0px no-repeat;
+}
+
+.pass{
+	background:#fff url(../img/ic_form.png) 8px -65px no-repeat;
+}
+
+.data input[type=text], .data input[type=password]{
+	float:left; display:block;
+	width:80%; height:25px;
+	margin:0 0 0 8%; padding:2%;
+	text-align:left;
+	border:none;
+	background:#fff;	
+}
+
+.data input:focus{
+	outline:none;	
+}
+
+input.bt-extranet{
+	float:left; display:block;
+	width:150px; height:40px;
+	margin:20px 0 0 5%; padding:0;
+	background:#2788C7;
+	text-align:center;
+	font:normal 0.875em/40px Arial, Helvetica, sans-serif;
+	color:#fff; letter-spacing:0.3px;
+	vertical-align:middle;
+	text-decoration:none;
+	border:1px solid #2788C7;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;	
+}
+
+input.bt-extranet:hover{
+	background:#fff;
+	border:1px solid #2788C7;
+	color:#2788C7;
+}
+
+input.bt-extranet:focus, input.bt-extranet:active{
+	background:#adadad;
+	border:1px solid #333;
+	color:#fff;
+}
+
+a.lost-p{
+	float:left; display:block;
+	width:auto; height:auto;
+	margin:30px 0 0 20px; padding:0;
+	font:normal 0.875em Arial, Helvetica, sans-serif;
+	color:#3e3e3e;	
+}
+
+a.lost-p:hover, p.info-top a:hover{
+	color:#d54536;
+}
+
+/* ==========================================================================
+   Chrome Frame prompt
+   ========================================================================== */
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+@media screen and (max-width: 480px){
+	.container{
+		width:100%;
+		max-width:100%;
+		overflow:hidden;
+	}
+    .container img{
+		max-width:100%;
+	}
+	header, hgroup{
+		height:auto;
+		display:block;
+		width:100%;
+	}
+	header h1, header h2{
+		width:100%;
+		height:auto;
+		margin:0; padding:0;
+		text-align:center;
+		border:none;
+		line-height:normal;
+	}
+	#body{
+	overflow:hidden;
+	}
+	header h1 a{
+		float:none;
+		margin:0 auto;
+	}
+	header h2{
+		color:#d54536;
+	}
+	p.info-top{
+		width:96%;
+		height:auto;
+		padding:2%;
+		margin:30px auto;
+		display:block;
+		text-align:center;
+		overflow:hidden;
+	}
+	.form-wrap{
+		width:100%;
+	}
+	.data input[type=text], .data input[type=password]{
+		margin:0 0 0 10%;
+	}
+	footer p.info{
+		margin:0;
+		padding:2%;
+		width:96%;
+		height:auto;
+		text-align:center;
+	}
+}
